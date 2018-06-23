@@ -1,6 +1,6 @@
 This is a fully 3D printed clock that was designed in Fusion 360. The project is based on [Ivan Miranda's Big Digital Clock](https://ivanmiranda.com/diy-big-digital-clock) and was completely re-designed.
 
-#### All files and photos can be found at: [Github](https://github.com/NimmLor/7-Segement-Clock)
+#### All files and photos can be found at: [Thingiverse](https://www.thingiverse.com/thing:2968056/)
 
 
 
