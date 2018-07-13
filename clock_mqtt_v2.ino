@@ -5,18 +5,17 @@
 
 // settings
 const char* ssid = "WIFI";                  // Your WiFi SSID
-const char* password = "PASSWORD";           // Your WiFi password
+const char* password = "PASWWORD";           // Your WiFi password
 const char* mqtt_server = "192.168.0.107";    // Enter the IP-Address of your Raspberry Pi
 
 
-#define mqtt_auth 1           // Set this to 0 to disable authentication
+#define mqtt_auth 0           // Set this to 0 to disable authentication
 #define mqtt_user ""      // Username for mqtt, not required if auth is disabled
 #define mqtt_password "" // Password for mqtt, not required if auth is disabled
 
-#define mqtt_topic "clock"    // here you have to set the topic for mqtt
+#define mqtt_topic ""    // here you have to set the topic for mqtt
 
 #define PIN 2                 // Pin of the led strip, default 2 (that is D4 on the wemos)
-
 
 
 
@@ -152,7 +151,7 @@ void displayData()
 void GetMode()
 {
   old_type = type;
-  if(old_type == '0')pixels.setBrightness(40);
+  if (old_type == '0')pixels.setBrightness(40);
   type = receivedChars[0];
   //Serial.println(type);
 }
@@ -206,8 +205,8 @@ void Weather()
   int temp = t1 * 10 + t2;
   if (vz == '-')temp = temp * (-1);
 
-  for(int i = 0; i<NUMPIXELS;i++)pixels.setPixelColor(i, pixels.Color(0, 0, 0));
-  
+  for (int i = 0; i < NUMPIXELS; i++)pixels.setPixelColor(i, pixels.Color(0, 0, 0));
+
   //WeatherSymbols
   pixels.setPixelColor(Digit3 + 0, pixels.Color(61, 225, 255));
   pixels.setPixelColor(Digit3 + 1, pixels.Color(61, 225, 255));
@@ -368,9 +367,11 @@ void SetTimerDyn()  //t;01;22;03
   temp_h += receivedChars[3] - '0';
 
   temp_m = receivedChars[5] - '0';
+  temp_m *= 10;
   temp_m += receivedChars[6] - '0';
 
   temp_s = receivedChars[8] - '0';
+  temp_s *= 10;
   temp_s += receivedChars[9] - '0';
 
   T_hours = temp_h;
@@ -389,7 +390,7 @@ void SetMode()
 {
   type = receivedChars[2];
   Serial.printf("Mode updated: %c", type);
-  if(type == '0')Off();
+  if (type == '0')Off();
   if (type == 'c') {
     if (mymode2 != '*')DrawTime();
     if (mymode2 != '*')DrawDots();
@@ -809,41 +810,28 @@ void ModeClock()
 
 void ModeTimerDyn()
 {
-  if (T_hours > 0)
+  if (T_hours <= 0 && T_mins <= 0 && T_secs <= 0)type = '1';
+  else
   {
-    if ((millis() - timermillis) >= 60000)
-    {
-      timermillis = millis();
-      T_mins--;
-      if (T_mins < 0)
-      {
-        T_hours--;
-        T_mins = 59;
-      }
-      ad = 0; DrawTimer();
-    }
-  }
-  else {
     if ((millis() - timermillis) >= 1000)
     {
       timermillis = millis();
       T_secs--;
-
-      if (T_mins <= 0 && T_secs <= 0)
+      if (T_secs <= 0)
       {
-        type = '1';
-      }
-      else
-      {
-        if (T_secs < 0)
+        if(T_mins > 0 || T_hours > 0)T_secs = 59;
+        T_mins--;
+        if (T_mins <= 0)
         {
-          T_mins--;
-          T_secs = 59;
+          if(T_hours > 0)T_mins = 59;
+          T_hours--;
         }
-        ad = 0; DrawTimer();
       }
+      DrawTimer();
     }
   }
+
+
 }
 
 
@@ -1276,3 +1264,5 @@ void loop()
   else if (type == '!')Alarm();
   if (mymode2 == '*')ModeFade();;
 }
+//----------------------------------------------------------------------------------------------------------
+
