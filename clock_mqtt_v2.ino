@@ -4,18 +4,19 @@
 
 
 // settings
-const char* ssid = "WLAN23";                  // Your WiFi SSID
-const char* password = "57erChevy";           // Your WiFi password
+const char* ssid = "WIFI";                  // Your WiFi SSID
+const char* password = "PASSWORD";           // Your WiFi password
 const char* mqtt_server = "192.168.0.107";    // Enter the IP-Address of your Raspberry Pi
 
 
 #define mqtt_auth 1           // Set this to 0 to disable authentication
-#define mqtt_user "main"      // Username for mqtt, not required if auth is disabled
-#define mqtt_password "SMN1m" // Password for mqtt, not required if auth is disabled
+#define mqtt_user ""      // Username for mqtt, not required if auth is disabled
+#define mqtt_password "" // Password for mqtt, not required if auth is disabled
 
 #define mqtt_topic "clock"    // here you have to set the topic for mqtt
 
 #define PIN 2                 // Pin of the led strip, default 2 (that is D4 on the wemos)
+
 
 
 
@@ -204,7 +205,9 @@ void Weather()
   weathersecs = (receivedChars[8] - '0') * 10 + receivedChars[10] - '0';
   int temp = t1 * 10 + t2;
   if (vz == '-')temp = temp * (-1);
-  Off();
+
+  for(int i = 0; i<NUMPIXELS;i++)pixels.setPixelColor(i, pixels.Color(0, 0, 0));
+  
   //WeatherSymbols
   pixels.setPixelColor(Digit3 + 0, pixels.Color(61, 225, 255));
   pixels.setPixelColor(Digit3 + 1, pixels.Color(61, 225, 255));
@@ -1273,4 +1276,3 @@ void loop()
   else if (type == '!')Alarm();
   if (mymode2 == '*')ModeFade();;
 }
-//----------------------------------------------------------------------------------------------------------
