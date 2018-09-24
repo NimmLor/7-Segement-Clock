@@ -1,38 +1,111 @@
 This is a fully 3D printed clock that was designed in Fusion 360. The project is based on [Ivan Miranda's Big Digital Clock](https://ivanmiranda.com/diy-big-digital-clock) and was completely re-designed.
 
-#### All files and photos can be found at: [Thingiverse](https://www.thingiverse.com/thing:2968056/)
+## If you have any questions or issues feel free contact me 
+
+#### *Mini version* of the clock coming soon :)
+
+
+## Changelog:
+
+## Major Software Update: 24.09.2018
+**Make sure to update all your libraries (3 dashes → manage palette → update)**
+- **LOTS OF BUG FIXES**
+  - Clock does no longer light up every 6 hours even when turned of
+  - Fixed a bug when clock mode was selected at 00:00 - 00:59 that it would made it show e.g. 24:15
+  - Fixed random reboots
+  - Fixed that alarm wouldn't trigger at the correct time
+  - Fixed a bug that occured when the API-key of *openweathermap* wasn't set
+  - Fixed error spamming in debug console of Node-red
+  - Fixed that timer would skip 1 second every minute
+  - Fixed bugs that would result in a crash of the clock
+  - and much more...
+- Removed unnecessary buttons in the UI
+- Added a **settings tab** to the UI, the *settings* section in the ui got moved over there
+- Clock is now **more precise**
+- Timer is now capable of displaying HH:MM and MM:SS format, depending on the remaining time
+- **SOURCE CODE OVERHAUL**
+  - Functions are now **modular**
+  - Added tons of **comments**
+  - Made the code **readable**
+  - **New** functions
+  - Clock/Timer works now more precise (the clock shouldn't be off time more than 2 secs)
+  - Functions utilize much less global variables making the code easier to modify
+  - Weather algorithm got fixed
+  - Fade works more stable now and shouldn't cause a crash anymore
+  - Time is now set in **HH:MM:SS** before it was HH:MM
+- Clock now request the time on startup and after connection loss
+- Custom values now allow to **disable digits**
+- Fixed fade-speed levels
+- Node-red flows are now much more modular, this allows controlling additional clocks
+- **Debug Serial** mode for the clock -> debugging can be disabled -> more stability
+- Brightness slider is now logarithmic
+- Fixed some typos
+- Easy way to control more clock implemented
+- Time offset should now be persistent
+- Added **Settings** page
+- Improved **Alarm** Creation
+  - Fixed tons of bugs
+  - Added alternative input formats
+  - Added input check → the user gets informed if the values aren't correct
+  - Adapted the form to the new dashboard plugin update
+  - The alarm triggers now at the correct time :D
+- and more...
+
+
+
+## Hotfix: 14.07.2018
+
+- Fixed a bug in the arduino code that would cause the shutdown of the clock if the weather gets displayed
+- Due to an update of the dashboard library some code had to be changed for the timer
+
+## Hotfix: 05.07.2018
+
+- Updated **diffuser_white_28x**, fixed the tiny hole on the bottom
 
 
 
 
-### Features
 
-- Responsive **userinterface**
 
-![Webinterface](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/Screenshot_2018-06-16-22-18-31.png?raw=true)
+#### All files and photos can be found at: [Github](https://github.com/NimmLor/7-Segement-Clock)
+
+
+### Tested devices
+ - Raspberry Pi 3B
+ - Raspberry Pi B+
+ - Wemos D1 mini
+ - Generic ESP8266 (Led Strip Pin must be changed)
+
+
+## Features
+
+- Responsive **webinterface**
+
+![Webinterface](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/new/Screenshot_2018-09-24-22-28-06.png?raw=true)
 
 - Create **alarms**
 
-![Webinterface alarm](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/Screenshot_2018-06-16-22-09-55.png?raw=true)
+![Webinterface alarm](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/new/Screenshot_2018-09-24-22-32-30.png?raw=true)
 
 - Show current temperature in your region
 
-![Webinterface weather](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/Screenshot_2018-06-16-22-20-10.png?raw=true)
+![Webinterface weather](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/new/Screenshot_2018-09-24-22-43-28.png?raw=true)
+
+- Configure settings
+
+![Webinterface settings](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/new/Screenshot_2018-09-24-22-32-51.png?raw=true)
 
 - Display local time
-
 - Set **individual colors** of each digit
-
 - Custom **scoreboard** mode 
-
 - Control brightness
-
 - Save **custom colors**
+- **Fade** colors
 
 
 
 # Bill of materials
-- 1x [Raspberry Pi](https://www.amazon.de/Raspberry-Pi-Model-ARM-Cortex-A53-Bluetooth/dp/B01CD5VC92/ref=sr_1_5?s=computers&ie=UTF8&qid=1529245480&sr=1-5&keywords=raspberry+pi)
+- 1x [Raspberry Pi](https://www.amazon.de/Raspberry-Pi-Model-ARM-Cortex-A53-Bluetooth/dp/B01CD5VC92/ref=sr_1_5?s=computers&ie=UTF8&qid=1529245480&sr=1-5&keywords=raspberry+pi) or any linux machine
 - 1x [Wemos d1 mini](http://s.click.aliexpress.com/e/MzRFIIE)
 - 1x [1m of WS2812 LED strip with 60 LED's](http://s.click.aliexpress.com/e/EiMfaA2)
 - 1x [Power supply 5V, 4A](https://de.aliexpress.com/item/-/32729613841.html?aff_platform=aaf&cpt=1529246193632&sk=2v37IQv&aff_trace_key=4a8485e23f644e5ea714a9afe5dbc424-1529246193632-06076-2v37IQv&terminal_id=a501ccaf1cb041b3a86c8852e0b0a15e)
@@ -99,6 +172,7 @@ A hot glue gun needs to be used to glue on all LED strips. The start of the LED 
 # Setup
 
 ## 1. Raspberry Pi
+- You could also install this on any linux machine
 
 In case help with Raspberry Pi is needed, click [here](https://www.imore.com/how-get-started-using-raspberry-pi).
 
@@ -155,11 +229,13 @@ You will have to create a database named **clock** to be able to save alarms. Ju
 
 #### 1. Start node-red
 - `sudo node-red-start`
+
 #### 2. Open node-red
 - <http://yourRaspberryIP:1880>
+
 #### 3. Import the flows
 - Click on the 3 dashes in the top right corner → import → clipboard
-- Enter the code snippet from **all_flows.txt** and click **import**
+- Enter the code snippet from **all_flows_v2.txt** and click **import**
 
 #### 4. Head to the Thingiverse_Settings flow
 #### 5. Edit the mqtt node
@@ -204,7 +280,6 @@ You will have to create a database named **clock** to be able to save alarms. Ju
 
 - The webinterface is designed to fit the whole screen of the *Fire HD 8* Tablet, to fit your phone you have to change the dimensions of the elements. 
 - You can change the position by dragging the elements in the dashboard list.
-- You should also change the name of the *Weather Rottenegg* tab.
 
 ![Dashboard element list](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/mod.jpg?raw=true)
 
@@ -220,29 +295,38 @@ You will have to create a database named **clock** to be able to save alarms. Ju
 
 #### 2. Add ESP8266 boards to the Arduino IDE
 
-   1. Click on preferences
-   2. Enter under *Additional Board Manager URLs*:
+      1. Click on preferences
+      2. Enter under *Additional Board Manager URLs*:
       http://arduino.esp8266.com/stable/package_esp8266com_index.json
-   3. Now head to tools → Board → Boards-Manager
+      3. Now head to tools → Board → Boards-Manager
       - Search for **esp8266** and install the package
-   4. Select **WeMos D1 R2 & mini** from the boards list
+      4. Select **WeMos D1 R2 & mini** from the boards list
 
 #### 3. Install libraries
 
-   1. Click on sketch → include libary → manage labraries
-   2. Install *PubSubClient*
-   3. Install *Adafruit Neopixel*
+      1. Click on sketch → include libary → manage labraries
+      2. Install *PubSubClient*
+      3. Install *Adafruit Neopixel*
 
 
-#### 4. Now open the file *clock_mqtt.ino*
+#### 4. Now open the file *clock_mqtt_v2.ino*
 #### 5. Edit the code
-   1. Set your WiFi SSID and WiFi password
-   2. Set **mqtt_server** to your Raspberry Pi's IP-Address
-   3. If you had set up authentication before, change **mqtt_auth** to 1 and enter your credentials below, otherwise set it to 0
+      1. Set your WiFi SSID and WiFi password
+      2. Set **mqtt_server** to your Raspberry Pi's IP-Address
+      3. If you had set up authentication before, change **mqtt_auth** to 1 and enter your credentials below, otherwise set it to 0
 
-![arduino code](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/arduino_code.PNG?raw=true)
+![arduino code](https://github.com/NimmLor/7-Segement-Clock/blob/master/images/new/settings.png?raw=true)
 
 #### 6. Choose the correct COM-Port of the ESP8266 under tools → Port
 #### 7. Hit **Upload**
 
 # Congratulations you made it, have fun! ☺
+
+
+
+## 4. My setup 
+
+The table i'm using is an **Amazon Fire HD 8** with an app called **One Page Web Browser**, this app can be found [here](https://play.google.com/store/apps/details?id=cz.mivazlin.onepagewebbrowser).
+
+
+
