@@ -1,0 +1,4186 @@
+[
+    {
+        "id": "2deda2a6.ddfe7e",
+        "type": "tab",
+        "label": "Thingiverse_Settings",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "1f8eef84.1e74b",
+        "type": "tab",
+        "label": "Thingiverse_Alarm",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "a8336af9.2cb8e8",
+        "type": "tab",
+        "label": "Thingiverse_Weather",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "60173d85.fbf8a4",
+        "type": "tab",
+        "label": "Thingiverse_Clock",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "7ea5ec71.511684",
+        "type": "tab",
+        "label": "Thingiverse_Communication",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2b98e82f.073af8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Clock Settings",
+        "tab": "746bd5b1.11e00c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "41705fe6.3b929",
+        "type": "ui_group",
+        "z": "",
+        "name": "Mode",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "3",
+        "collapse": false
+    },
+    {
+        "id": "fe187c02.033ca",
+        "type": "ui_group",
+        "z": "",
+        "name": "Create Alarm",
+        "tab": "53d7eea2.b5f7f",
+        "disp": true,
+        "width": "9",
+        "collapse": false
+    },
+    {
+        "id": "1744f76e.d9ad69",
+        "type": "MySQLdatabase",
+        "z": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "clock",
+        "tz": ""
+    },
+    {
+        "id": "b48c542c.ad7e78",
+        "type": "ui_group",
+        "z": "",
+        "name": "Alarm List",
+        "tab": "53d7eea2.b5f7f",
+        "disp": true,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "53d7eea2.b5f7f",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Alarm",
+        "icon": "fa-bell-o",
+        "order": 4
+    },
+    {
+        "id": "f68f4725.c176c8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Local Weather",
+        "tab": "cd8a11dc.580c7",
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "cd8a11dc.580c7",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Weather",
+        "icon": "fa-sun-o",
+        "order": 5
+    },
+    {
+        "id": "51479d6.8bfc664",
+        "type": "ui_group",
+        "z": "",
+        "name": "Mode",
+        "tab": "14139c18.705464",
+        "order": 1,
+        "disp": true,
+        "width": "3",
+        "collapse": false
+    },
+    {
+        "id": "764a1245.cd985c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Colors",
+        "tab": "14139c18.705464",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "765eb29.5f36a4c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Custom",
+        "tab": "14139c18.705464",
+        "order": 3,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "17352507.d7860b",
+        "type": "ui_group",
+        "z": "",
+        "name": "Timer",
+        "tab": "14139c18.705464",
+        "order": 4,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "38bfd3d.73dea2c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Weather Settings",
+        "tab": "746bd5b1.11e00c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "412513fc.ce4c7c",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "broker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "708a027e.1cb5cc",
+        "type": "ui_group",
+        "z": "",
+        "name": "Single Color",
+        "tab": "14139c18.705464",
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "14139c18.705464",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Clock",
+        "icon": "fa-clock-o",
+        "order": 2
+    },
+    {
+        "id": "746bd5b1.11e00c",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Settings",
+        "icon": "fa-cog"
+    },
+    {
+        "id": "9acbc8ad.e46ff8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Mode",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "3",
+        "collapse": false
+    },
+    {
+        "id": "5542af73.04bb6",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "81193fd5.f3842",
+        "type": "inject",
+        "z": "2deda2a6.ddfe7e",
+        "name": "TIME OFFSET",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "repeat": "7200",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 340,
+        "y": 100,
+        "wires": [
+            [
+                "21aa0d9a.cc7a42"
+            ]
+        ]
+    },
+    {
+        "id": "21aa0d9a.cc7a42",
+        "type": "function",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Set offset",
+        "func": "global.set(\"timeoffset\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "247e5103.60c49e",
+        "type": "comment",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Edit the node below to set an offset",
+        "info": "Austria, Germany etc: 1",
+        "x": 400,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "9f86d343.a8efd",
+        "type": "inject",
+        "z": "2deda2a6.ddfe7e",
+        "name": "CREATE TABLE",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 340,
+        "y": 340,
+        "wires": [
+            [
+                "54391fd3.d3bdd",
+                "3475eb00.163896"
+            ]
+        ]
+    },
+    {
+        "id": "54391fd3.d3bdd",
+        "type": "function",
+        "z": "2deda2a6.ddfe7e",
+        "name": "use Database",
+        "func": "msg.topic = \"use clock\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 540,
+        "y": 340,
+        "wires": [
+            [
+                "48e7ffc4.e881d",
+                "4b1fc20.aa8674"
+            ]
+        ]
+    },
+    {
+        "id": "3475eb00.163896",
+        "type": "delay",
+        "z": "2deda2a6.ddfe7e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "300",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 530,
+        "y": 380,
+        "wires": [
+            [
+                "5d5b7af3.199f84",
+                "7c1e27f1.c06698"
+            ]
+        ]
+    },
+    {
+        "id": "5d5b7af3.199f84",
+        "type": "function",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Create Table",
+        "func": "msg.topic = \"CREATE TABLE `alarm` (  `ID` int(11) NOT NULL,  `Name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,  `Time` varchar(50) COLLATE utf8_unicode_ci NOT NULL,  `Monday` tinyint(1) NOT NULL,  `Tuesday` tinyint(1) NOT NULL,  `Wednesday` tinyint(1) NOT NULL,  `Thursday` tinyint(1) NOT NULL,  `Friday` tinyint(1) NOT NULL,  `Saturday` tinyint(1) NOT NULL,  `Sunday` tinyint(1) NOT NULL,  `RepeatTimer` tinyint(4) NOT NULL,  `DeleteTimer` tinyint(4) NOT NULL,  `Duration` int(11) NOT NULL,  `Enabled` tinyint(4) NOT NULL DEFAULT '1') ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 380,
+        "wires": [
+            [
+                "48e7ffc4.e881d",
+                "4b1fc20.aa8674"
+            ]
+        ]
+    },
+    {
+        "id": "e6d16b80.9d9a98",
+        "type": "function",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Alter Table Add primary key",
+        "func": "msg.topic = \"ALTER TABLE `alarm` ADD PRIMARY KEY (`ID`)\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 940,
+        "y": 420,
+        "wires": [
+            [
+                "48e7ffc4.e881d",
+                "4b1fc20.aa8674"
+            ]
+        ]
+    },
+    {
+        "id": "7c1e27f1.c06698",
+        "type": "delay",
+        "z": "2deda2a6.ddfe7e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "300",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 710,
+        "y": 420,
+        "wires": [
+            [
+                "e6d16b80.9d9a98",
+                "3b22735c.3e03fc"
+            ]
+        ]
+    },
+    {
+        "id": "2189e8f0.2ad2b8",
+        "type": "function",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Alter Table Auto increment",
+        "func": "msg.topic = \"ALTER TABLE `alarm` MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1120,
+        "y": 460,
+        "wires": [
+            [
+                "48e7ffc4.e881d",
+                "4b1fc20.aa8674"
+            ]
+        ]
+    },
+    {
+        "id": "3b22735c.3e03fc",
+        "type": "delay",
+        "z": "2deda2a6.ddfe7e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "300",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 890,
+        "y": 460,
+        "wires": [
+            [
+                "2189e8f0.2ad2b8"
+            ]
+        ]
+    },
+    {
+        "id": "4b1fc20.aa8674",
+        "type": "debug",
+        "z": "2deda2a6.ddfe7e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1330,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "2b655abf.986d06",
+        "type": "debug",
+        "z": "2deda2a6.ddfe7e",
+        "name": "DATABASE OUT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1530,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "48e7ffc4.e881d",
+        "type": "mysql",
+        "z": "2deda2a6.ddfe7e",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 1330,
+        "y": 340,
+        "wires": [
+            [
+                "2b655abf.986d06"
+            ]
+        ]
+    },
+    {
+        "id": "80be390e.3714b8",
+        "type": "mysql",
+        "z": "2deda2a6.ddfe7e",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 310,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0dfa926.de6bf8",
+        "type": "comment",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Edit the node below to set the database connection",
+        "info": "",
+        "x": 450,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4c7d8e24.e8cb5",
+        "type": "comment",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Press the latch after you have connected the database and created the database in the shell",
+        "info": "",
+        "x": 580,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "dddeee99.facd7",
+        "type": "ui_slider",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Fade level slider",
+        "label": "Fade speed: {{msg.payload}}",
+        "group": "2b98e82f.073af8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "",
+        "min": 0,
+        "max": "9",
+        "step": 1,
+        "x": 540,
+        "y": 800,
+        "wires": [
+            [
+                "b6052b1d.e25838"
+            ]
+        ]
+    },
+    {
+        "id": "239e2d17.7a9042",
+        "type": "function",
+        "z": "2deda2a6.ddfe7e",
+        "name": "FadeActivate",
+        "func": "var x = msg.payload; \nvar msg2;\nflow.set(\"fade_en\", x);\nif(!x){msg2={payload: \"#\"};}\nelse\n{\n    var spd = flow.get(\"fadelevel\");\n    if(spd == null){msg2={payload: \"*;0\"};}\n    else {msg2={payload: \"*;\"+spd};}\n}\n\nreturn msg2;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 910,
+        "y": 700,
+        "wires": [
+            [
+                "1326f649.7bb99a",
+                "a687bace.7195b8"
+            ]
+        ]
+    },
+    {
+        "id": "b6052b1d.e25838",
+        "type": "function",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Set Fade Level",
+        "func": "var x = msg.payload; \nflow.set(\"fadelevel\", x);\n\nvar x2 = x*10 + 10;\nvar res = x2 + \"%\";\nvar msg2 = {payload: res};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 720,
+        "y": 800,
+        "wires": [
+            [
+                "f3e5523b.b5c8"
+            ]
+        ]
+    },
+    {
+        "id": "f3e5523b.b5c8",
+        "type": "function",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Change Fade",
+        "func": "var x = msg.payload; \nvar msg2;\nvar en = flow.get(\"fade_en\");\nif(!en){msg2={payload: \"#\"};}\nelse\n{\n    msg2={payload: \"*;\"+x};\n}\n\nreturn msg2;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 900,
+        "y": 800,
+        "wires": [
+            [
+                "1326f649.7bb99a"
+            ]
+        ]
+    },
+    {
+        "id": "1326f649.7bb99a",
+        "type": "link out",
+        "z": "2deda2a6.ddfe7e",
+        "name": "",
+        "links": [
+            "76456690.4972b8"
+        ],
+        "x": 1055,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "392eb209.41adfe",
+        "type": "function",
+        "z": "2deda2a6.ddfe7e",
+        "name": "Set Digits",
+        "func": "function hexToRgb(hex) {\n    var bigint = parseInt(hex, 16);\n    var r = (bigint >> 16) & 255;\n    var g = (bigint >> 8) & 255;\n    var b = bigint & 255;\n\n    return r + \";\" + g + \";\" + b;\n}\n\n\n\nvar x = msg.payload; // get value\nvar x2 = x;\nvar rgb =  hexToRgb(x2);\n\nx = \"x;\" + rgb;\n\n\nmsg = {payload: x}; // set msg\n\nglobal.set(\"defaultc\", x);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 500,
+        "y": 900,
+        "wires": [
+            [
+                "d710155b.1dcb68"
+            ]
+        ]
+    },
+    {
+        "id": "d710155b.1dcb68",
+        "type": "link out",
+        "z": "2deda2a6.ddfe7e",
+        "name": "",
+        "links": [
+            "76456690.4972b8"
+        ],
+        "x": 715,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "fbb49b3e.b92428",
+        "type": "ui_colour_picker",
+        "z": "2deda2a6.ddfe7e",
+        "name": "",
+        "label": "Default Color:",
+        "group": "2b98e82f.073af8",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": true,
+        "showValue": true,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "dynOutput": "false",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "topic": "",
+        "x": 320,
+        "y": 900,
+        "wires": [
+            [
+                "392eb209.41adfe"
+            ]
+        ]
+    },
+    {
+        "id": "ea90626f.e225c",
+        "type": "ui_switch",
+        "z": "2deda2a6.ddfe7e",
+        "name": "",
+        "label": "Fade colors",
+        "group": "51479d6.8bfc664",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 730,
+        "y": 700,
+        "wires": [
+            [
+                "239e2d17.7a9042"
+            ]
+        ]
+    },
+    {
+        "id": "a687bace.7195b8",
+        "type": "debug",
+        "z": "2deda2a6.ddfe7e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1110,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "3d9360c9.0698a",
+        "type": "ui_form",
+        "z": "1f8eef84.1e74b",
+        "name": "Alarm Creation Form",
+        "label": "",
+        "group": "fe187c02.033ca",
+        "order": 1,
+        "width": "9",
+        "height": "5",
+        "options": [
+            {
+                "label": "Name",
+                "value": "lblName",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Time",
+                "value": "lblTime",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Alarm Timeout (minutes)",
+                "value": "lblDuration",
+                "type": "number",
+                "required": false
+            }
+        ],
+        "formValue": {
+            "lblName": "",
+            "lblTime": "",
+            "lblDuration": ""
+        },
+        "payload": "",
+        "submit": "Create Alarm",
+        "cancel": "Reset Fields",
+        "topic": "",
+        "x": 310,
+        "y": 220,
+        "wires": [
+            [
+                "e5ceadc1.d6ee3",
+                "9bd274f3.26deb8"
+            ]
+        ]
+    },
+    {
+        "id": "518456d3.e582b8",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 1090,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f0400f8f.ca833",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Form SQL Statement",
+        "func": "/*\nvar name = msg.payload.lblName;\nvar time =msg.payload.lblTime;\nvar mo =msg.payload.CMo ? 1 : 0;\nvar di =msg.payload.CDi ? 1 : 0;\nvar mi =msg.payload.CMi ? 1 : 0;\nvar don =msg.payload.CDo ? 1 : 0;\nvar fr =msg.payload.CFr ? 1 : 0;\nvar sa =msg.payload.CSa ? 1 : 0;\nvar so =msg.payload.CSo ? 1 : 0;\n*/\nvar name = msg.payload.lblName;\nvar time =msg.payload.lblTime;\nvar duration = msg.payload.lblDuration * 60000;\n\nvar mo = flow.get(\"Mo\");\nvar tu = flow.get(\"Tu\");\nvar we = flow.get(\"We\");\nvar th = flow.get(\"Th\");\nvar fr = flow.get(\"Fr\");\nvar sa = flow.get(\"Sa\");\nvar su = flow.get(\"Su\");\nvar del = flow.get(\"delete\");\nvar rep = flow.get(\"repeat\");\n\nif(mo == null)mo = 0;\nif(tu == null)tu = 0;\nif(we == null)we = 0;\nif(th == null)th = 0;\nif(fr == null)fr = 0;\nif(sa == null)sa = 0;\nif(su == null)su = 0;\nif(del == null)del = 0;\nif(rep == null)rep = 0;\n\nvar name2 = \"'\"+name+\"'\";\nvar time2 = \"'\"+time+\"'\";\n\nvar sql = \"INSERT INTO alarm (Name, Time, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, RepeatTimer, DeleteTimer, Duration, Enabled) VALUES (\"+ name2 + \", \" + time2 + \", \" + mo +\", \" + tu +\", \" + we +\", \" + th +\", \" + fr +\", \" + sa +\", \" + su +\", \" + rep +\", \" + del +\", \" + duration +\", 1)\";\n//var msg = {payload: sql};\n\nmsg.topic = sql;\nmsg.payload = null;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 800,
+        "y": 200,
+        "wires": [
+            [
+                "518456d3.e582b8"
+            ]
+        ]
+    },
+    {
+        "id": "c0111ac.e34eae8",
+        "type": "inject",
+        "z": "1f8eef84.1e74b",
+        "name": "Get Alarms from Database",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "repeat": "15",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 400,
+        "y": 920,
+        "wires": [
+            [
+                "db38842f.166ab8"
+            ]
+        ]
+    },
+    {
+        "id": "2f1043d7.b75cbc",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 790,
+        "y": 920,
+        "wires": [
+            [
+                "f849a090.a575e",
+                "87bcbb4f.8ae118"
+            ]
+        ]
+    },
+    {
+        "id": "db38842f.166ab8",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Set Query",
+        "func": "\nvar sql = \"SELECT * FROM alarm\";\n\nmsg.topic = sql;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 640,
+        "y": 920,
+        "wires": [
+            [
+                "2f1043d7.b75cbc"
+            ]
+        ]
+    },
+    {
+        "id": "f849a090.a575e",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Trigger Alarm",
+        "func": "if ( !msg.timestamp ) msg.timestamp = Math.round(+new Date());\nvar dt = new Date(msg.timestamp);\nvar h = dt.getHours();\nvar\tm = dt.getMinutes();\nvar\td = dt.getDay();\n\nvar offset = global.get(\"timeoffset\");\nif(offset != null)\n{\n    h += offset;\n}\n\nif(h >= 23)\n{\n    h = h - 24;\n    if(d >= 6)d=0;\n    else d++;\n}\nh++;\n\n\n\n\nif(h >24)\n{\n    h -= 24;\n    if(d==6)d=0; else d++;\n}\nelse if(h <0)\n{\n    h += 24;\n    if(d==0)d=6; else d--;\n}\n\nif(h < 10)\n{\n    h = '0' + h;\n}\n\nif(m < 10)\n{\n    m = '0' + m;\n}\n\n\n\nvar mytime = h + ':' + m + ':00';\nvar mytime_alt = h + ':' + m;\n\n//mytime = \"21:40:00\";\nvar trigger = -1;\nvar timerc = msg.payload.length;\nvar cd = 0;\n\n\nfor(var i = 0; i<timerc; i++)\n{\n    cd = CheckDay(d);\n    var time_alt = msg.payload[i].Time.substr(0, 5);\n    if(mytime == msg.payload[i].Time && cd == 1 && msg.payload[i].Enabled == 1)trigger = i;\n    else if(mytime_alt == msg.payload[i].Time && cd == 1 && msg.payload[i].Enabled == 1)trigger = i;\n}\n\nvar msgdebug = {\n    'mytime': mytime,\n    'mytime_alt': mytime_alt,\n    'day': d,\n    'trigger': trigger,\n    'alarm count': timerc\n}\n\nif(trigger == -1)\n{\n    msg.payload = mytime_alt;\n    return [null, msgdebug];\n    \n}\n\n\nvar msg2 = {\n\t'Name':\tmsg.payload[trigger].Name,\n\t'Time':\tmsg.payload[trigger].Time,\n\t'ID':\tmsg.payload[trigger].ID,\n\t'Duration': msg.payload[trigger].Duration,\n\t'DeleteTimer': msg.payload[trigger].DeleteTimer,\n\t'day': d,\n\t'mytime': mytime,\n\t'mytime_alt': mytime_alt\n}\n\n\n\nreturn [msg2, msg2];\n\n\n\n\n\n\n\n\n\nfunction CheckDay(i)\n{\n    var r = 0;\n    if(msg.payload[i] == null)return 0;\n    if(msg.payload[i].Monday == 1 && d == 1)r=1;\n    if(msg.payload[i].Tuesday == 1 && d == 2)r=1;\n    if(msg.payload[i].Wednesday == 1 && d == 3)r=1;\n    if(msg.payload[i].Thursday == 1 && d == 4)r=1;\n    if(msg.payload[i].Friday == 1 && d == 5)r=1;\n    if(msg.payload[i].Saturday == 1 && d == 6)r=1;\n    if(msg.payload[i].Sunday == 1 && d == 0)r=1;\n    return r;\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 980,
+        "y": 920,
+        "wires": [
+            [
+                "1aabf547.5085bb",
+                "eaf8bd6e.ca963",
+                "ca8ef62f.3d6728",
+                "eec2ae4c.08341"
+            ],
+            [
+                "9fa74bb3.00fb88"
+            ]
+        ]
+    },
+    {
+        "id": "f70c9eac.ae17f",
+        "type": "ui_toast",
+        "z": "1f8eef84.1e74b",
+        "position": "dialog",
+        "displayTime": "10",
+        "highlight": "",
+        "outputs": 1,
+        "ok": "STOP ALARM",
+        "cancel": "",
+        "topic": "",
+        "name": "",
+        "x": 1390,
+        "y": 900,
+        "wires": [
+            [
+                "2c486b35.a0bdb4",
+                "d0e58b98.6d2618",
+                "39b50221.441f9e",
+                "84baf47.d167908"
+            ]
+        ]
+    },
+    {
+        "id": "1aabf547.5085bb",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Format Notification",
+        "func": "msg.topic = msg.Name + ' Alarm';\nmsg.payload = msg.Name + ' Alarm triggered at: '+msg.Time;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1210,
+        "y": 900,
+        "wires": [
+            [
+                "f70c9eac.ae17f"
+            ]
+        ]
+    },
+    {
+        "id": "eaf8bd6e.ca963",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Send Alarm Command",
+        "func": "var msg = {payload: \"a;!\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1220,
+        "y": 940,
+        "wires": [
+            [
+                "c057fc34.b7794"
+            ]
+        ]
+    },
+    {
+        "id": "2c486b35.a0bdb4",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Stop Alarm",
+        "func": "var msg = {payload: \"a;c\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1630,
+        "y": 940,
+        "wires": [
+            [
+                "6e54e7d.91b5518"
+            ]
+        ]
+    },
+    {
+        "id": "d0e58b98.6d2618",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Restore Brightness",
+        "func": "var msg = {payload: \"b;50\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1650,
+        "y": 900,
+        "wires": [
+            [
+                "6e54e7d.91b5518"
+            ]
+        ]
+    },
+    {
+        "id": "6902fa75.01f534",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Set Query",
+        "func": "\nvar sql = \"SELECT * FROM alarm\";\n\nmsg.topic = sql;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 520,
+        "y": 360,
+        "wires": [
+            [
+                "799431c2.3de9"
+            ]
+        ]
+    },
+    {
+        "id": "799431c2.3de9",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 710,
+        "y": 360,
+        "wires": [
+            [
+                "e5136196.9a587"
+            ]
+        ]
+    },
+    {
+        "id": "e5136196.9a587",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Create Table",
+        "func": "\nvar mytable = \"<table align=\\\"right\\\"><tr><td>Name<\\/td><td>Time<\\/td><td>Status<\\/td><td>Delete<\\/td><td>View<\\/td><\\/tr>\";\n\nvar timerc = msg.payload.length;\n\n\nfor(var i = 0; i<timerc; i++)\n{\n    mytable += \"<tr><td>\" + msg.payload[i].Name + \"<\\/td><td width=\\\"20%\\\">\" + msg.payload[i].Time + \"<\\/td>\";\n    if(msg.payload[i].Enabled == 0)mytable += \"<td width=\\\"10%\\\"><i class=\\\"fa fa-bell-slash\\\" aria-hidden=\\\"true\\\"><\\/i><\\/td>\";\n    else if(msg.payload[i].Enabled == 1)mytable += \"<td width=\\\"10%\\\"><i class=\\\"fa fa-bell\\\" aria-hidden=\\\"true\\\"><\\/i><\\/td>\";\n    else if(msg.payload[i].Enabled == 2 && msg.payload[i].RepeatTimer == 1)\n    {\n        mytable += \"<td width=\\\"10%\\\"><i class=\\\"fa fa-exclamation-triangle\\\" aria-hidden=\\\"true\\\"><\\/i><\\/td>\";\n        mytable += \"<td colspan=2><md-button ng-click=\\\"send({payload: \\'!\"+ msg.payload[i].ID +\"\\'})\\\"><b>STOP ALARM<\\/b><\\/md-button><\\/td>\";    \n    }\n    else\n    {\n        mytable += \"<td width=\\\"10%\\\"><i class=\\\"fa fa-exclamation-triangle\\\" aria-hidden=\\\"true\\\"><\\/i><\\/td>\";\n        mytable += \"<td colspan=2><md-button ng-click=\\\"send({payload: \\'#\"+ msg.payload[i].ID +\"\\'})\\\"><b>STOP ALARM<\\/b><\\/md-button><\\/td>\";    \n    }\n    if(msg.payload[i].Enabled != 2)\n    {\n    mytable += \"<td width=\\\"10%\\\"><md-button ng-click=\\\"send({payload: \\'d\"+ msg.payload[i].ID +\"\\'})\\\"><i class=\\\"fa fa-trash\\\" aria-hidden=\\\"true\\\"><\\/i><\\/md-button><\\/td>\";    \n    mytable += \"<td width=\\\"10%\\\"><md-button ng-click=\\\"send({payload: \\'s\"+ msg.payload[i].ID +\"\\'})\\\"><i class=\\\"fa fa-eye\\\" aria-hidden=\\\"true\\\"><\\/i><\\/md-button><\\/td>\";\n    }\n    mytable += \"<\\/tr>\"\n}\n\n\nmytable += \"<\\/table>\";\n\n\nvar style = \"<style>  table {      color: #333;      font-family: Helvetica, Arial, sans-serif;      width: 100%;      border-collapse: collapse;      border-spacing: 0;  }  td, th {      border: 1px solid transparent;      /* No more visible border */      height: 30px;      transition: all 0.3s;  }  th {      background: #DFDFDF;      font-weight: bold;  }  td {      background: #FAFAFA;      text-align: left;  }    tr:nth-child(even) td {      background: #F1F1F1;  }      tr:nth-child(odd) td {      background: #FEFEFE;  }  tr td:hover {      background: #666;      color: #FFF;  }  <\\/style>\";\n\nmsg.template = style + mytable;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 870,
+        "y": 360,
+        "wires": [
+            [
+                "18665814.b344b8"
+            ]
+        ]
+    },
+    {
+        "id": "18665814.b344b8",
+        "type": "ui_template",
+        "z": "1f8eef84.1e74b",
+        "group": "b48c542c.ad7e78",
+        "name": "List Alarms",
+        "order": 0,
+        "width": "7",
+        "height": "8",
+        "format": "",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1050,
+        "y": 360,
+        "wires": [
+            [
+                "df51252f.d18958",
+                "1973cac2.b2a0d5",
+                "54afa454.1c149c"
+            ]
+        ]
+    },
+    {
+        "id": "fa0a957a.6bbb28",
+        "type": "ui_toast",
+        "z": "1f8eef84.1e74b",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "topic": "",
+        "name": "",
+        "x": 1830,
+        "y": 320,
+        "wires": [
+            [
+                "90364160.2ada7"
+            ]
+        ]
+    },
+    {
+        "id": "7edc72b0.e4e26c",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 1490,
+        "y": 320,
+        "wires": [
+            [
+                "9c9d6972.9b31a8"
+            ]
+        ]
+    },
+    {
+        "id": "df51252f.d18958",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Get Info of Selected",
+        "func": "var value = msg.payload.substr(1);\n\nvar sql = \"SELECT * FROM alarm WHERE ID = \" + value;\nflow.set(\"delID\", value);\nflow.set(\"shoID\", value);\nmsg.topic = sql;\n\nif(msg.payload.charAt(0) == 'd')return [null, msg];\nelse if(msg.payload.charAt(0) == 's')return [msg, null];\nelse return[null, null];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 1300,
+        "y": 260,
+        "wires": [
+            [
+                "6b466db0.694444"
+            ],
+            [
+                "7edc72b0.e4e26c"
+            ]
+        ]
+    },
+    {
+        "id": "9c9d6972.9b31a8",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Button Text",
+        "func": "var Name = msg.payload[0].Name;\nvar Time = msg.payload[0].Time;\n\nmsg.payload = \"Are you sure to delete \"+Name+\"?<br>Alarm Time: \"+Time;\nmsg.topic = \"Delete Alarm\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1650,
+        "y": 320,
+        "wires": [
+            [
+                "fa0a957a.6bbb28"
+            ]
+        ]
+    },
+    {
+        "id": "90364160.2ada7",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Delete Element",
+        "func": "if(msg.payload != \"OK\")return null;\nmsg.topic = \"DELETE FROM alarm WHERE ID = \"+ flow.get(\"delID\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2020,
+        "y": 320,
+        "wires": [
+            [
+                "d301f44e.317e68"
+            ]
+        ]
+    },
+    {
+        "id": "d301f44e.317e68",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 2210,
+        "y": 320,
+        "wires": [
+            [
+                "c7fb9692.34f558"
+            ]
+        ]
+    },
+    {
+        "id": "e5ceadc1.d6ee3",
+        "type": "delay",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 490,
+        "y": 260,
+        "wires": [
+            [
+                "6902fa75.01f534"
+            ]
+        ]
+    },
+    {
+        "id": "d03db484.e2cb58",
+        "type": "ui_switch",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "label": "Monday",
+        "group": "fe187c02.033ca",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 280,
+        "y": 460,
+        "wires": [
+            [
+                "d1bb903d.81f16"
+            ]
+        ]
+    },
+    {
+        "id": "d700ddf5.a53a5",
+        "type": "ui_switch",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "label": "Tuesday",
+        "group": "fe187c02.033ca",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 280,
+        "y": 500,
+        "wires": [
+            [
+                "e864044e.4c0f08"
+            ]
+        ]
+    },
+    {
+        "id": "7e5a432b.6e2b3c",
+        "type": "ui_switch",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "label": "Wednesday",
+        "group": "fe187c02.033ca",
+        "order": 4,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 270,
+        "y": 540,
+        "wires": [
+            [
+                "56466383.af849c"
+            ]
+        ]
+    },
+    {
+        "id": "b6011bde.460bb8",
+        "type": "ui_switch",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "label": "Thursday",
+        "group": "fe187c02.033ca",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 280,
+        "y": 580,
+        "wires": [
+            [
+                "e7057ad3.fc5a58"
+            ]
+        ]
+    },
+    {
+        "id": "8d694f34.f33ab",
+        "type": "ui_switch",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "label": "Friday",
+        "group": "fe187c02.033ca",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 290,
+        "y": 620,
+        "wires": [
+            [
+                "28baea51.794f96"
+            ]
+        ]
+    },
+    {
+        "id": "36cc46c2.a4a98a",
+        "type": "ui_switch",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "label": "Saturday",
+        "group": "fe187c02.033ca",
+        "order": 7,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 280,
+        "y": 660,
+        "wires": [
+            [
+                "e964f799.ada678"
+            ]
+        ]
+    },
+    {
+        "id": "fc94a760.9bd7e8",
+        "type": "ui_switch",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "label": "Sunday",
+        "group": "fe187c02.033ca",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 280,
+        "y": 700,
+        "wires": [
+            [
+                "e204a1c2.c2604"
+            ]
+        ]
+    },
+    {
+        "id": "dfba1db9.748f6",
+        "type": "ui_switch",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "label": "Repeat",
+        "group": "fe187c02.033ca",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 280,
+        "y": 740,
+        "wires": [
+            [
+                "b7a5773d.f57db8"
+            ]
+        ]
+    },
+    {
+        "id": "d12eb098.b255e",
+        "type": "ui_switch",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "label": "One Time",
+        "group": "fe187c02.033ca",
+        "order": 10,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "x": 280,
+        "y": 820,
+        "wires": [
+            [
+                "bd6def43.2ff49"
+            ]
+        ]
+    },
+    {
+        "id": "d1bb903d.81f16",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "global",
+        "func": "flow.set(\"Mo\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e864044e.4c0f08",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "global",
+        "func": "flow.set(\"Tu\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "56466383.af849c",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "global",
+        "func": "flow.set(\"We\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e7057ad3.fc5a58",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "global",
+        "func": "flow.set(\"Th\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "28baea51.794f96",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "global",
+        "func": "flow.set(\"Fr\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e964f799.ada678",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "global",
+        "func": "flow.set(\"Sa\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e204a1c2.c2604",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "global",
+        "func": "flow.set(\"Su\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca8ef62f.3d6728",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Set active",
+        "func": "\nvar sql = \"UPDATE alarm SET Enabled = 2 WHERE ID = \" + msg.ID;\n\nmsg.topic = sql;\nvar msg2 = {payload: msg.ID};\nmsg2.delay = msg.Duration;\n\nreturn [msg2, msg];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 1180,
+        "y": 800,
+        "wires": [
+            [
+                "8d4832cd.17dca"
+            ],
+            [
+                "6e366b31.0984b4"
+            ]
+        ]
+    },
+    {
+        "id": "6e366b31.0984b4",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 2170,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "236fe0ff.c4f5",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Set active",
+        "func": "var sql = \"\";\nif(msg.payload[0].RepeatTimer == 1)\n{\nsql = \"UPDATE alarm SET Enabled = 1 WHERE ID = \" + msg.payload[0].ID;\n    msg.topic = sql;\n    return [null, msg];\n}\nelse\n{\n    sql = \"UPDATE alarm SET Enabled = 0 WHERE ID = \" + msg.payload[0].ID;\n    msg.topic = sql;\n    return [msg, null];\n}\n\nmsg.topic = sql;\n\n\nreturn msg;",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 2020,
+        "y": 840,
+        "wires": [
+            [
+                "6e366b31.0984b4"
+            ],
+            [
+                "bb318a93.947578"
+            ]
+        ]
+    },
+    {
+        "id": "6bfd0e95.c63bf",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 1830,
+        "y": 860,
+        "wires": [
+            [
+                "236fe0ff.c4f5",
+                "c162c377.19213"
+            ]
+        ]
+    },
+    {
+        "id": "39b50221.441f9e",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Set Query",
+        "func": "\nvar sql = \"SELECT * FROM alarm WHERE ID = \" + msg.ID;\n\nmsg.topic = sql;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1620,
+        "y": 860,
+        "wires": [
+            [
+                "6bfd0e95.c63bf"
+            ]
+        ]
+    },
+    {
+        "id": "677e3328.56596c",
+        "type": "ui_toast",
+        "z": "1f8eef84.1e74b",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "outputs": 1,
+        "ok": "Enable",
+        "cancel": "Disable",
+        "topic": "",
+        "name": "",
+        "x": 1830,
+        "y": 200,
+        "wires": [
+            [
+                "33e9e46d.2d8adc"
+            ]
+        ]
+    },
+    {
+        "id": "6b466db0.694444",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 1490,
+        "y": 200,
+        "wires": [
+            [
+                "47eb8d97.8f73d4"
+            ]
+        ]
+    },
+    {
+        "id": "47eb8d97.8f73d4",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Button Text",
+        "func": "var Name = msg.payload[0].Name;\nvar Time = msg.payload[0].Time;\nvar Days = \"\";\nif(msg.payload[0].Monday == 1)Days += \"Monday, \";\nif(msg.payload[0].Tuesday == 1)Days += \"Tuesday, \";\nif(msg.payload[0].Wednesday == 1)Days += \"Wednesday, \";\nif(msg.payload[0].Thursday == 1)Days += \"Thursday, \";\nif(msg.payload[0].Friday == 1)Days += \"Friday, \";\nif(msg.payload[0].Saturday == 1)Days += \"Saturday, \";\nif(msg.payload[0].Sunday == 1)Days += \"Sunday, \";\n\nvar active = \"\";\nvar deleteafter = \"no\";\nvar repeat = \"no\";\nvar duration = msg.payload[0].Duration /60000 + \" Minutes\";\n\nif(msg.payload[0].DeleteTimer == 1)deleteafter = \"yes\";\nif(msg.payload[0].RepeatTimer == 1)repeat = \"yes\";\n\nif(msg.payload[0].Enabled == 0)active = \"Alarm disabled\";\nif(msg.payload[0].Enabled == 1)active = \"Alarm enabled\";\nif(msg.payload[0].Enabled == 2)active = \"Alarm active\";\n\nmsg.payload = \"Name: \"+Name+\"<br>Alarm Time: \"+Time + \"<br>ID: \" + msg.payload[0].ID + \"<br>Status: \" + active;\nmsg.payload += \"<br>Enabled Days: \"+Days+\"<br>Repeat Timer: \" + repeat + \"<br>One-Time Timer: \" + deleteafter + \"<br>Duration: \" + duration;\n\nmsg.topic = \"Alarm Info\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1650,
+        "y": 200,
+        "wires": [
+            [
+                "677e3328.56596c"
+            ]
+        ]
+    },
+    {
+        "id": "33e9e46d.2d8adc",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Set active",
+        "func": "var sql = \"\";\nif(msg.payload == \"Enable\")\nsql = \"UPDATE alarm SET Enabled = 1 WHERE ID = \" + flow.get(\"shoID\");\nelse\n{\n    sql = \"UPDATE alarm SET Enabled = 0 WHERE ID = \" + flow.get(\"shoID\");\n}\n\nmsg.topic = sql;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2000,
+        "y": 200,
+        "wires": [
+            [
+                "4f324ff3.8766d"
+            ]
+        ]
+    },
+    {
+        "id": "4f324ff3.8766d",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 2210,
+        "y": 200,
+        "wires": [
+            [
+                "c7fb9692.34f558"
+            ]
+        ]
+    },
+    {
+        "id": "c7fb9692.34f558",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "e1aca519.35ff48",
+            "7d798016.e64bc"
+        ],
+        "x": 2335,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "e1aca519.35ff48",
+        "type": "link in",
+        "z": "1f8eef84.1e74b",
+        "name": "Refresh",
+        "links": [
+            "c7fb9692.34f558",
+            "6285f81.cca2008",
+            "d0def39a.5636a",
+            "68dfd906.291d18",
+            "c1115c1a.1ae2f",
+            "6d7e03a5.9208bc",
+            "b7a964b8.406228",
+            "eec2ae4c.08341"
+        ],
+        "x": 115,
+        "y": 360,
+        "wires": [
+            [
+                "6902fa75.01f534"
+            ]
+        ]
+    },
+    {
+        "id": "b7a5773d.f57db8",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "global",
+        "func": "flow.set(\"repeat\", msg.payload);\nif(msg.payload == 0)return null;\nelse {\nvar msg = {payload: 0};\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 740,
+        "wires": [
+            [
+                "d12eb098.b255e"
+            ]
+        ]
+    },
+    {
+        "id": "bd6def43.2ff49",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "global",
+        "func": "flow.set(\"delete\", msg.payload);\nif(msg.payload == 0)return null;\nelse {\nvar msg = {payload: 0};\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 820,
+        "wires": [
+            [
+                "dfba1db9.748f6"
+            ]
+        ]
+    },
+    {
+        "id": "c162c377.19213",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Disable Timer ",
+        "func": "if(msg.payload[0].DeleteTimer == 1)msg.payload = msg.payload[0].ID;else msg.payload = \"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2040,
+        "y": 880,
+        "wires": [
+            [
+                "ed07b518.505348",
+                "b10a2cdb.ac777",
+                "c67f1bb9.c063b8"
+            ]
+        ]
+    },
+    {
+        "id": "8d4832cd.17dca",
+        "type": "delay",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "pauseType": "delayv",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1380,
+        "y": 680,
+        "wires": [
+            [
+                "62397908.89f8b8",
+                "68b1a2bd.092b9c",
+                "d7169458.7b99e8"
+            ]
+        ]
+    },
+    {
+        "id": "68b1a2bd.092b9c",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Stop Alarm",
+        "func": "var msg = {payload: \"a;c\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1550,
+        "y": 720,
+        "wires": [
+            [
+                "33d9c3fb.65d3dc"
+            ]
+        ]
+    },
+    {
+        "id": "62397908.89f8b8",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Restore Brightness",
+        "func": "var msg = {payload: \"b;50\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1570,
+        "y": 680,
+        "wires": [
+            [
+                "33d9c3fb.65d3dc"
+            ]
+        ]
+    },
+    {
+        "id": "a673b71b.d149c8",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 2510,
+        "y": 900,
+        "wires": [
+            [
+                "6285f81.cca2008"
+            ]
+        ]
+    },
+    {
+        "id": "ed07b518.505348",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Delete Element",
+        "func": "msg.topic = \"DELETE FROM alarm WHERE ID = \\'\"+ msg.payload + \"\\'\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2340,
+        "y": 900,
+        "wires": [
+            [
+                "a673b71b.d149c8"
+            ]
+        ]
+    },
+    {
+        "id": "6285f81.cca2008",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "e1aca519.35ff48",
+            "7d798016.e64bc"
+        ],
+        "x": 2615,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "6d7e03a5.9208bc",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "e1aca519.35ff48",
+            "7d798016.e64bc"
+        ],
+        "x": 1835,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "597058d9.9ab568",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 1750,
+        "y": 640,
+        "wires": [
+            [
+                "6d7e03a5.9208bc"
+            ]
+        ]
+    },
+    {
+        "id": "d7169458.7b99e8",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Delete Element",
+        "func": "msg.topic = \"DELETE FROM alarm WHERE ID = \"+ msg.payload;\nif(msg.DeleteTimer == 0)return null;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1560,
+        "y": 640,
+        "wires": [
+            [
+                "597058d9.9ab568"
+            ]
+        ]
+    },
+    {
+        "id": "b10a2cdb.ac777",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Restore Brightness",
+        "func": "var msg = {payload: \"b;50\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2350,
+        "y": 860,
+        "wires": [
+            [
+                "9dc4ad34.16875"
+            ]
+        ]
+    },
+    {
+        "id": "c67f1bb9.c063b8",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Delete Element",
+        "func": "msg.topic = \"DELETE FROM alarm WHERE ID = \"+ msg.payload;\nif(msg.DeleteTimer == 0)return null;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2340,
+        "y": 820,
+        "wires": [
+            [
+                "9dc4ad34.16875"
+            ]
+        ]
+    },
+    {
+        "id": "b9dde3b8.5b5a",
+        "type": "ui_ui_control",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "x": 80,
+        "y": 420,
+        "wires": [
+            [
+                "6902fa75.01f534",
+                "a060d5bd.f8e7a8"
+            ]
+        ]
+    },
+    {
+        "id": "1973cac2.b2a0d5",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Disable Timer",
+        "func": "var value = msg.payload.substr(1);\nif(msg.payload.charAt(0) == '!')\n{\nmsg.topic = \"UPDATE alarm SET Enabled = 1 WHERE ID = \" + value;\n}\nelse if(msg.payload.charAt(0) == '#')\n{\nmsg.topic = \"UPDATE alarm SET Enabled = 0 WHERE ID = \" + value;\n}\nelse if(msg.payload.charAt(0) != '!' && msg.payload.charAt(0) == '#')return null;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1280,
+        "y": 380,
+        "wires": [
+            [
+                "b520029d.20cf4",
+                "17ee0798.387cd8",
+                "b7fd599e.a56b58",
+                "d5ba6795.94f048",
+                "3c9e47a4.d8b788"
+            ]
+        ]
+    },
+    {
+        "id": "b520029d.20cf4",
+        "type": "mysql",
+        "z": "1f8eef84.1e74b",
+        "mydb": "1744f76e.d9ad69",
+        "name": "",
+        "x": 1490,
+        "y": 380,
+        "wires": [
+            [
+                "b7a964b8.406228"
+            ]
+        ]
+    },
+    {
+        "id": "b7a964b8.406228",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "e1aca519.35ff48",
+            "7d798016.e64bc"
+        ],
+        "x": 1595,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "eec2ae4c.08341",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "e1aca519.35ff48"
+        ],
+        "x": 1135,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "54afa454.1c149c",
+        "type": "debug",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1310,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "17ee0798.387cd8",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Stop Alarm",
+        "func": "var msg = {payload: \"a;c\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1510,
+        "y": 440,
+        "wires": [
+            [
+                "296e5e4.01103a2"
+            ]
+        ]
+    },
+    {
+        "id": "b7fd599e.a56b58",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Restore Brightness",
+        "func": "var msg = {payload: \"b;50\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1530,
+        "y": 480,
+        "wires": [
+            [
+                "296e5e4.01103a2"
+            ]
+        ]
+    },
+    {
+        "id": "d5ba6795.94f048",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "Stop Alarm",
+        "func": "var msg = {payload: \"a;c\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1510,
+        "y": 520,
+        "wires": [
+            [
+                "296e5e4.01103a2"
+            ]
+        ]
+    },
+    {
+        "id": "9bd274f3.26deb8",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "input check",
+        "func": "var name = msg.payload.lblName;\nvar time =msg.payload.lblTime;\nvar duration = msg.payload.lblDuration;\n\nvar tl = time.length;\n\nif(tl == 5)\n{\n    var t1 = time.substring(0,2);\n    var t2 = time.substring(3,5);\n    if(parseInt(t1, 10) == null || parseInt(t1, 10) <0 || parseInt(t1, 10) >23 || parseInt(t2, 10) == null || parseInt(t2, 10) <0 || parseInt(t2, 10) >59)\n    {\n        msg.payload = \"Alarm creation failed, time format is invalid.\";\n        return [null, msg];\n    }\n}\nelse if(tl == 8)\n{\n    var t1 = time.substring(0,2);\n    var t2 = time.substring(3,5);\n    var t3 = time.substring(6,8);\n    if(parseInt(t1, 10) == null || parseInt(t1, 10) <0 || parseInt(t1, 10) >23 || parseInt(t2, 10) == null || parseInt(t2, 10) <0 || parseInt(t2, 10) >59 || parseInt(t3, 10) == null || parseInt(t3, 10) <0 )\n    {\n        msg.payload = \"Alarm creation failed, time format is invalid.\";\n        return [null, msg];\n    }\n}\nelse\n{\n    msg.payload = \"Time format must be HH:MM or HH:MM:SS.\";\n    return [null, msg];\n}\nif(duration == null || parseInt(duration, 10) == null || parseInt(duration, 10) == 0)msg.payload.lblDuration = 60;\nelse if(parseInt(duration, 10) == null || parseInt(duration, 10) < 0)\n    {\n        msg.payload = \"Timer duration must be a valid number.\";\n        return [null, msg];\n    }\n\nreturn [msg, null];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 490,
+        "y": 220,
+        "wires": [
+            [
+                "f0400f8f.ca833",
+                "ced3e990.af6ed8"
+            ],
+            [
+                "be1eb7e9.824088"
+            ]
+        ]
+    },
+    {
+        "id": "be1eb7e9.824088",
+        "type": "ui_toast",
+        "z": "1f8eef84.1e74b",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "red",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "",
+        "name": "",
+        "x": 790,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "84baf47.d167908",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "GetTime",
+        "func": "var now     = new Date(); \n\nvar hour    = now.getHours();\nvar minute  = now.getMinutes();\n\n\n\nvar offset = global.get(\"timeoffset\");\nif(offset != null)\n{\n    hour += offset; \n    hour += 1;\n}\n\nif(hour >24)\n{\n    hour -= 24;\n}\nelse if(hour <0)\n{\n    hour += 24;\n}\n\n\nvar h1 = 0;\nvar h2 = 0;\nvar m1 = 0;\nvar m2 = 0;\n\n\n\nm2 = minute %10; \nm1 = parseInt((minute/10)%10); \nh2 = hour %10; \nh1 = parseInt((hour/10)%10); \n\n\nvar result = \"s;\";\nresult = result + h1;\nresult = result + \";\";\nresult = result + h2;\nresult = result + \";\";\nresult = result + m1;\nresult = result + \";\";\nresult = result + m2;\n\nmsg = {payload: result}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1620,
+        "y": 980,
+        "wires": [
+            [
+                "6e54e7d.91b5518"
+            ]
+        ]
+    },
+    {
+        "id": "a060d5bd.f8e7a8",
+        "type": "function",
+        "z": "1f8eef84.1e74b",
+        "name": "disable all",
+        "func": "msg.payload = 0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 100,
+        "y": 540,
+        "wires": [
+            [
+                "d03db484.e2cb58",
+                "d700ddf5.a53a5",
+                "7e5a432b.6e2b3c",
+                "b6011bde.460bb8",
+                "8d694f34.f33ab",
+                "36cc46c2.a4a98a",
+                "fc94a760.9bd7e8",
+                "dfba1db9.748f6",
+                "d12eb098.b255e"
+            ]
+        ]
+    },
+    {
+        "id": "ced3e990.af6ed8",
+        "type": "debug",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 760,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "3c9e47a4.d8b788",
+        "type": "debug",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1510,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "9fa74bb3.00fb88",
+        "type": "debug",
+        "z": "1f8eef84.1e74b",
+        "name": "TRIGGER DEBUG",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1210,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "87bcbb4f.8ae118",
+        "type": "debug",
+        "z": "1f8eef84.1e74b",
+        "name": "DATABASE DEBUG",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1020,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "c057fc34.b7794",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "c52bc9ec.b72f28"
+        ],
+        "x": 1375,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "33d9c3fb.65d3dc",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "c52bc9ec.b72f28"
+        ],
+        "x": 1735,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "296e5e4.01103a2",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "c52bc9ec.b72f28"
+        ],
+        "x": 1735,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "6e54e7d.91b5518",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "c52bc9ec.b72f28"
+        ],
+        "x": 1835,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "9dc4ad34.16875",
+        "type": "link out",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "links": [
+            "c52bc9ec.b72f28"
+        ],
+        "x": 2535,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "bb318a93.947578",
+        "type": "delay",
+        "z": "1f8eef84.1e74b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "minutes",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1980,
+        "y": 740,
+        "wires": [
+            [
+                "6e366b31.0984b4"
+            ]
+        ]
+    },
+    {
+        "id": "1269d07e.22b4c",
+        "type": "openweathermap in",
+        "z": "a8336af9.2cb8e8",
+        "name": "Local Weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Walding",
+        "country": "Austria",
+        "language": "de",
+        "x": 210,
+        "y": 160,
+        "wires": [
+            [
+                "e36dd303.fe9cf",
+                "e7e45c18.51ca1"
+            ]
+        ]
+    },
+    {
+        "id": "7d070dad.ac3a94",
+        "type": "ui_gauge",
+        "z": "a8336af9.2cb8e8",
+        "name": "Weather",
+        "group": "f68f4725.c176c8",
+        "order": 1,
+        "width": "8",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "Â°C",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "50",
+        "colors": [
+            "#0d9ca8",
+            "#e6e600",
+            "#cd3434"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 660,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e36dd303.fe9cf",
+        "type": "function",
+        "z": "a8336af9.2cb8e8",
+        "name": "Get Temp",
+        "func": "result = msg.payload.tempc;\n\nglobal.set(\"temperature\", result);\nflow.set(\"temp\", result);\nvar msg = {payload: result};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "7d070dad.ac3a94",
+                "a95171f0.92323"
+            ]
+        ]
+    },
+    {
+        "id": "b846c75b.95d468",
+        "type": "ui_chart",
+        "z": "a8336af9.2cb8e8",
+        "name": "Temp chart",
+        "group": "f68f4725.c176c8",
+        "order": 3,
+        "width": "8",
+        "height": "5",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "5",
+        "ymax": "35",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 850,
+        "y": 160,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e7e45c18.51ca1",
+        "type": "function",
+        "z": "a8336af9.2cb8e8",
+        "name": "Get Clouds",
+        "func": "result = msg.payload.clouds;\n\ncontext.set(\"clouds\", result);\n\nvar msg = {payload: result};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "9ab4829b.78047",
+                "5abe1c8a.f451e4"
+            ]
+        ]
+    },
+    {
+        "id": "9ab4829b.78047",
+        "type": "ui_gauge",
+        "z": "a8336af9.2cb8e8",
+        "name": "Clouds",
+        "group": "f68f4725.c176c8",
+        "order": 2,
+        "width": "8",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Clouds",
+        "label": "%",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#0d9ca8",
+            "#e6e600",
+            "#cd3434"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 650,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a87d5d9a.5ea27",
+        "type": "ui_chart",
+        "z": "a8336af9.2cb8e8",
+        "name": "Clouds chart",
+        "group": "f68f4725.c176c8",
+        "order": 4,
+        "width": "8",
+        "height": "5",
+        "label": "Clouds",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 850,
+        "y": 260,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5abe1c8a.f451e4",
+        "type": "delay",
+        "z": "a8336af9.2cb8e8",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "hour",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 670,
+        "y": 260,
+        "wires": [
+            [
+                "a87d5d9a.5ea27"
+            ]
+        ]
+    },
+    {
+        "id": "a95171f0.92323",
+        "type": "delay",
+        "z": "a8336af9.2cb8e8",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "hour",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 670,
+        "y": 160,
+        "wires": [
+            [
+                "b846c75b.95d468"
+            ]
+        ]
+    },
+    {
+        "id": "4b998ff4.c9161",
+        "type": "comment",
+        "z": "a8336af9.2cb8e8",
+        "name": "Edit the node below to set the api key for the weather",
+        "info": "",
+        "x": 330,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "51383ff5.25af7",
+        "type": "ui_button",
+        "z": "60173d85.fbf8a4",
+        "name": "Manual Update",
+        "group": "51479d6.8bfc664",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clock",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "a;c",
+        "payloadType": "str",
+        "topic": "",
+        "x": 620,
+        "y": 240,
+        "wires": [
+            [
+                "86d7fa07.9865f8",
+                "aededa12.014048"
+            ]
+        ]
+    },
+    {
+        "id": "44f3af97.260dc",
+        "type": "ui_slider",
+        "z": "60173d85.fbf8a4",
+        "name": "Brightness",
+        "label": "",
+        "group": "764a1245.cd985c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "",
+        "min": "1",
+        "max": "100",
+        "step": 1,
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "d869fda3.81d6c",
+                "dfb42238.13c55"
+            ]
+        ]
+    },
+    {
+        "id": "30eebe89.9379d2",
+        "type": "ui_switch",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "Dot 1",
+        "group": "765eb29.5f36a4c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "i;1",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "i;0",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "x": 710,
+        "y": 820,
+        "wires": [
+            [
+                "33fa1fb8.f4415"
+            ]
+        ]
+    },
+    {
+        "id": "a9887481.04a9f8",
+        "type": "ui_switch",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "Dot 2",
+        "group": "765eb29.5f36a4c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "i;3",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "i;2",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "x": 710,
+        "y": 860,
+        "wires": [
+            [
+                "33fa1fb8.f4415"
+            ]
+        ]
+    },
+    {
+        "id": "38707878.0890c8",
+        "type": "ui_text_input",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "Time",
+        "group": "17352507.d7860b",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "mode": "time",
+        "delay": "100",
+        "topic": "",
+        "x": 550,
+        "y": 1200,
+        "wires": [
+            [
+                "4afbdb15.6a9ce4"
+            ]
+        ]
+    },
+    {
+        "id": "f6c90449.8f3268",
+        "type": "ui_button",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "group": "17352507.d7860b",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start Timer",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 530,
+        "y": 1240,
+        "wires": [
+            [
+                "250a01d3.2989ae",
+                "11946b2f.2f14b5",
+                "5f0d24e4.9d49bc"
+            ]
+        ]
+    },
+    {
+        "id": "d2236995.94fd08",
+        "type": "ui_numeric",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "Digit 1",
+        "group": "765eb29.5f36a4c",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}}",
+        "min": "-1",
+        "max": "9",
+        "step": 1,
+        "x": 550,
+        "y": 1380,
+        "wires": [
+            [
+                "14e9871d.c46939"
+            ]
+        ]
+    },
+    {
+        "id": "1eafc676.2e35aa",
+        "type": "ui_numeric",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "Digit 2",
+        "group": "765eb29.5f36a4c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}}",
+        "min": "-1",
+        "max": "9",
+        "step": 1,
+        "x": 550,
+        "y": 1420,
+        "wires": [
+            [
+                "9deec30f.5262a"
+            ]
+        ]
+    },
+    {
+        "id": "a484cbea.6037d8",
+        "type": "ui_numeric",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "Digit 3",
+        "group": "765eb29.5f36a4c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}}",
+        "min": "-1",
+        "max": "9",
+        "step": 1,
+        "x": 550,
+        "y": 1460,
+        "wires": [
+            [
+                "321e1f4f.afba1"
+            ]
+        ]
+    },
+    {
+        "id": "31f0c2b2.dd758e",
+        "type": "ui_numeric",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "Digit 4",
+        "group": "765eb29.5f36a4c",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "",
+        "format": "{{value}}",
+        "min": "-1",
+        "max": "9",
+        "step": 1,
+        "x": 550,
+        "y": 1500,
+        "wires": [
+            [
+                "bfd7056e.71ed68"
+            ]
+        ]
+    },
+    {
+        "id": "f3e2963e.ff9e38",
+        "type": "ui_button",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "group": "765eb29.5f36a4c",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Set Values",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 530,
+        "y": 1540,
+        "wires": [
+            [
+                "f1bcf63e.9ef7e8"
+            ]
+        ]
+    },
+    {
+        "id": "14e9871d.c46939",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Digit 1",
+        "func": "var d1 = msg.payload;\nif(d1 == -1)d1 = \"x\";\nflow.set(\"digit1\", d1);\n\nmsg = {payload: d1};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9deec30f.5262a",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Digit 2",
+        "func": "var d2 = msg.payload;\nif(d2 == -1)d2 = \"x\";\nflow.set(\"digit2\", d2);\n\nmsg = {payload: d2};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "321e1f4f.afba1",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Digit 3",
+        "func": "var d3 = msg.payload;\nif(d3 == -1)d3 = \"x\";\nflow.set(\"digit3\", d3);\n\nmsg = {payload: d3};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bfd7056e.71ed68",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Digit 4",
+        "func": "var d4 = msg.payload;\nif(d4 == -1)d4 = \"x\";\nflow.set(\"digit4\", d4);\n\nmsg = {payload: d4};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f1bcf63e.9ef7e8",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Format",
+        "func": "var d1 = flow.get(\"digit1\");\nvar d2 = flow.get(\"digit2\");\nvar d3 = flow.get(\"digit3\");\nvar d4 = flow.get(\"digit4\");\n\nresult = \"z;\" + d1 + \";\" + d2 + \";\" + d3 + \";\" + d4;\n\n\nmsg = {payload: result};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 720,
+        "y": 1540,
+        "wires": [
+            [
+                "128aad3.f601453"
+            ]
+        ]
+    },
+    {
+        "id": "a7593b51.d563a8",
+        "type": "ui_button",
+        "z": "60173d85.fbf8a4",
+        "name": "Weather",
+        "group": "51479d6.8bfc664",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Weather",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "str",
+        "topic": "",
+        "x": 420,
+        "y": 400,
+        "wires": [
+            [
+                "2573f526.0f6b9a"
+            ]
+        ]
+    },
+    {
+        "id": "2573f526.0f6b9a",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Display weather",
+        "func": "var x = \"w\";\nvar vz = '+';\n\nvar pay = msg.payload;\n\nvar temp = global.get(\"temperature\");\nvar temp2 = parseInt(temp);\n\nif(temp == null)return null;\n\nvar t1 = 0;\nvar t2 = 0;\n\nt2 = temp2 %10; \nt1 = parseInt((temp2/10)%10); \n\n\n\nif(temp2 < 0)\n{\n    vz = '-';\n    if(temp2 >= -9)\n    {\n        //t2 = temp.charAt(1);\n        t2 = temp2 %10;\n        t1 = 0;\n    }\n    else\n    {\n        //t2 = temp.charAt(2);\n        t2 = temp2 %10;\n        //t1 = temp.charAt(1);\n        t1 = parseInt((temp2/10)%10); \n    }\n}\nelse if(temp2 <= 9)\n{\n    //t2 = temp.charAt(0);\n    t2 = temp2 %10;\n    t1 = 0;\n}\nelse\n{\n    //t2 = temp.charAt(1);\n    t2 = temp2 %10;\n    //t1 = temp.charAt(0);\n    t1 = parseInt((temp2/10)%10); \n}\n\nvar mydur = global.get(\"wdur\");\nif(mydur == null)mydur = \"1;0\";\n\nx = x + \";\";\nx = x + t1;\nx = x + \";\";\nx = x + t2;\nx = x + \";\";\nx = x + vz;\nx = x + \";\";\nx = x + mydur;\n\nvar state = flow.get(\"w\");\n\nif(state == \"0\" && pay == false)return null;\nmsg = {payload: x}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 360,
+        "wires": [
+            [
+                "aededa12.014048"
+            ]
+        ]
+    },
+    {
+        "id": "60fc8ac0.65d304",
+        "type": "inject",
+        "z": "60173d85.fbf8a4",
+        "name": "Push Weather Interval",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "300",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "2573f526.0f6b9a"
+            ]
+        ]
+    },
+    {
+        "id": "67c73c22.4db214",
+        "type": "ui_text",
+        "z": "60173d85.fbf8a4",
+        "group": "764a1245.cd985c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Brightness: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "x": 870,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d869fda3.81d6c",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Get Percent",
+        "func": "var x = msg.payload; // get value\nx = x + \"%\";\nmsg = {payload: x}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 670,
+        "y": 440,
+        "wires": [
+            [
+                "67c73c22.4db214"
+            ]
+        ]
+    },
+    {
+        "id": "d1eb22b9.00482",
+        "type": "ui_switch",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "Eneable Weather",
+        "group": "38bfd3d.73dea2c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "x": 1430,
+        "y": 100,
+        "wires": [
+            [
+                "d30e33c2.0f789"
+            ]
+        ]
+    },
+    {
+        "id": "d30e33c2.0f789",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Push Weather",
+        "func": "var x = msg.payload; // get value\nflow.set(\"w\", x);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1660,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98ddb736.09d528",
+        "type": "inject",
+        "z": "60173d85.fbf8a4",
+        "name": "Update Time: 2h interval",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "7200",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 610,
+        "y": 160,
+        "wires": [
+            [
+                "86d7fa07.9865f8"
+            ]
+        ]
+    },
+    {
+        "id": "85869489.1f7c48",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Dots",
+        "func": "function hexToRgb(hex) {\n    var bigint = parseInt(hex, 16);\n    var r = (bigint >> 16) & 255;\n    var g = (bigint >> 8) & 255;\n    var b = bigint & 255;\n\n    return r + \";\" + g + \";\" + b;\n}\n\nflow.set(\"s5\",msg.payload);\n\nvar x = msg.payload; // get value\nvar x2 = x.substr(1,6);\nvar rgb =  hexToRgb(x2);\n\nx = \"h;1;\" + rgb;\nflow.set(\"d5\", x);\nmsg = {payload: x}; // set msg\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 740,
+        "wires": [
+            [
+                "da17aa7f.f4b488",
+                "33fa1fb8.f4415"
+            ]
+        ]
+    },
+    {
+        "id": "6462d0f6.56551",
+        "type": "ui_text_input",
+        "z": "60173d85.fbf8a4",
+        "name": "Dot 1",
+        "label": "",
+        "group": "764a1245.cd985c",
+        "order": 11,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "color",
+        "delay": "100",
+        "topic": "",
+        "x": 710,
+        "y": 740,
+        "wires": [
+            [
+                "85869489.1f7c48"
+            ]
+        ]
+    },
+    {
+        "id": "7f550f39.47e53",
+        "type": "ui_text_input",
+        "z": "60173d85.fbf8a4",
+        "name": "Dot 2",
+        "label": "",
+        "group": "764a1245.cd985c",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "color",
+        "delay": "100",
+        "topic": "",
+        "x": 710,
+        "y": 780,
+        "wires": [
+            [
+                "73e2f72d.b3c768"
+            ]
+        ]
+    },
+    {
+        "id": "73e2f72d.b3c768",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Dots",
+        "func": "function hexToRgb(hex) {\n    var bigint = parseInt(hex, 16);\n    var r = (bigint >> 16) & 255;\n    var g = (bigint >> 8) & 255;\n    var b = bigint & 255;\n\n    return r + \";\" + g + \";\" + b;\n}\n\nflow.set(\"s6\",msg.payload);\n\nvar x = msg.payload; // get value\nvar x2 = x.substr(1,6);\nvar rgb =  hexToRgb(x2);\n\nx = \"h;2;\" + rgb;\nflow.set(\"d6\", x);\nmsg = {payload: x}; // set msg\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 780,
+        "wires": [
+            [
+                "da17aa7f.f4b488",
+                "33fa1fb8.f4415"
+            ]
+        ]
+    },
+    {
+        "id": "fed657f1.6f51a8",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Dots",
+        "func": "function hexToRgb(hex) {\n    var bigint = parseInt(hex, 16);\n    var r = (bigint >> 16) & 255;\n    var g = (bigint >> 8) & 255;\n    var b = bigint & 255;\n\n    return r + \";\" + g + \";\" + b;\n}\n\nflow.set(\"s3\",msg.payload);\n\nvar x = msg.payload; // get value\nvar x2 = x.substr(1,6);\nvar rgb =  hexToRgb(x2);\n\nx = \"f;3;\"+ rgb;\nflow.set(\"d3\", x);\nmsg = {payload: x}; // set msg\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 660,
+        "wires": [
+            [
+                "da17aa7f.f4b488",
+                "33fa1fb8.f4415"
+            ]
+        ]
+    },
+    {
+        "id": "e6bac750.949da8",
+        "type": "ui_text_input",
+        "z": "60173d85.fbf8a4",
+        "name": "Digit 3",
+        "label": "",
+        "group": "764a1245.cd985c",
+        "order": 9,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "color",
+        "delay": "100",
+        "topic": "",
+        "x": 710,
+        "y": 660,
+        "wires": [
+            [
+                "fed657f1.6f51a8"
+            ]
+        ]
+    },
+    {
+        "id": "8e261797.63d618",
+        "type": "ui_text_input",
+        "z": "60173d85.fbf8a4",
+        "name": "Digit 4",
+        "label": "",
+        "group": "764a1245.cd985c",
+        "order": 10,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "color",
+        "delay": "100",
+        "topic": "",
+        "x": 710,
+        "y": 700,
+        "wires": [
+            [
+                "7ab28c9a.c78ad4"
+            ]
+        ]
+    },
+    {
+        "id": "7ab28c9a.c78ad4",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Dots",
+        "func": "function hexToRgb(hex) {\n    var bigint = parseInt(hex, 16);\n    var r = (bigint >> 16) & 255;\n    var g = (bigint >> 8) & 255;\n    var b = bigint & 255;\n\n    return r + \";\" + g + \";\" + b;\n}\n\nflow.set(\"s4\",msg.payload);\n\nvar x = msg.payload; // get value\nvar x2 = x.substr(1,6);\nvar rgb =  hexToRgb(x2);\n\nx = \"f;4;\" + rgb;\nflow.set(\"d4\", x);\nmsg = {payload: x}; // set msg\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 861,
+        "y": 700,
+        "wires": [
+            [
+                "da17aa7f.f4b488",
+                "33fa1fb8.f4415"
+            ]
+        ]
+    },
+    {
+        "id": "2aeebf81.47e99",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Dots",
+        "func": "function hexToRgb(hex) {\n    var bigint = parseInt(hex, 16);\n    var r = (bigint >> 16) & 255;\n    var g = (bigint >> 8) & 255;\n    var b = bigint & 255;\n\n    return r + \";\" + g + \";\" + b;\n}\n\n\n\nvar x = msg.payload; // get value\nvar x2 = x.substr(1,6);\nvar rgb =  hexToRgb(x2);\nflow.set(\"s1\",msg.payload);\nx = \"f;1;\" + rgb;\nflow.set(\"d1\", x);\nmsg.payload = x; // set msg\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 580,
+        "wires": [
+            [
+                "da17aa7f.f4b488",
+                "33fa1fb8.f4415",
+                "c938af5d.9539"
+            ]
+        ]
+    },
+    {
+        "id": "d9fc4665.8b99a8",
+        "type": "ui_text_input",
+        "z": "60173d85.fbf8a4",
+        "name": "Digit1",
+        "label": "",
+        "group": "764a1245.cd985c",
+        "order": 5,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "color",
+        "delay": "100",
+        "topic": "",
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "2aeebf81.47e99"
+            ]
+        ]
+    },
+    {
+        "id": "b4d0f209.3729b",
+        "type": "ui_text_input",
+        "z": "60173d85.fbf8a4",
+        "name": "Digit 2",
+        "label": "",
+        "group": "764a1245.cd985c",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": true,
+        "mode": "color",
+        "delay": "100",
+        "topic": "",
+        "x": 710,
+        "y": 620,
+        "wires": [
+            [
+                "6ac60f1e.5cfe8"
+            ]
+        ]
+    },
+    {
+        "id": "6ac60f1e.5cfe8",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Dots",
+        "func": "function hexToRgb(hex) {\n    var bigint = parseInt(hex, 16);\n    var r = (bigint >> 16) & 255;\n    var g = (bigint >> 8) & 255;\n    var b = bigint & 255;\n\n    return r + \";\" + g + \";\" + b;\n}\n\nflow.set(\"s2\",msg.payload);\n\nvar x = msg.payload; // get value\nvar x2 = x.substr(1,6);\nvar rgb =  hexToRgb(x2);\n\nx = \"f;2;\" + rgb;\nflow.set(\"d2\", x);\nmsg = {payload: x}; // set msg\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 620,
+        "wires": [
+            [
+                "da17aa7f.f4b488",
+                "33fa1fb8.f4415"
+            ]
+        ]
+    },
+    {
+        "id": "2985d323.a5a8dc",
+        "type": "ui_button",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "group": "764a1245.cd985c",
+        "order": 13,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "label": "Set Custom Colors",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 490,
+        "y": 940,
+        "wires": [
+            [
+                "be2065fd.53d028",
+                "c97fb7a0.413058",
+                "e341a13a.3076a",
+                "b5b0a74a.ca79b8",
+                "b6830948.6dfd18",
+                "fecd9400.561f88"
+            ]
+        ]
+    },
+    {
+        "id": "be2065fd.53d028",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Color",
+        "func": "var x = flow.get(\"d1\");\nif(x == null)return null;\nvar msg = {payload: x};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 940,
+        "wires": [
+            [
+                "8c17da05.7d6aa8"
+            ]
+        ]
+    },
+    {
+        "id": "c97fb7a0.413058",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Color",
+        "func": "var x = flow.get(\"d2\");\nif(x == null)return null;\nvar msg = {payload: x};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 980,
+        "wires": [
+            [
+                "8c17da05.7d6aa8"
+            ]
+        ]
+    },
+    {
+        "id": "e341a13a.3076a",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Color",
+        "func": "var x = flow.get(\"d3\");\nif(x == null)return null;\nvar msg = {payload: x};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 1020,
+        "wires": [
+            [
+                "8c17da05.7d6aa8"
+            ]
+        ]
+    },
+    {
+        "id": "b5b0a74a.ca79b8",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Color",
+        "func": "var x = flow.get(\"d4\");\nif(x == null)return null;\nvar msg = {payload: x};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 1060,
+        "wires": [
+            [
+                "8c17da05.7d6aa8"
+            ]
+        ]
+    },
+    {
+        "id": "b6830948.6dfd18",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Color",
+        "func": "var x = flow.get(\"d5\");\nif(x == null)return null;\nvar msg = {payload: x};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 1100,
+        "wires": [
+            [
+                "8c17da05.7d6aa8"
+            ]
+        ]
+    },
+    {
+        "id": "fecd9400.561f88",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Color",
+        "func": "var x = flow.get(\"d6\");\nif(x == null)return null;\nvar msg = {payload: x};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 1140,
+        "wires": [
+            [
+                "8c17da05.7d6aa8"
+            ]
+        ]
+    },
+    {
+        "id": "e81184c4.4469b8",
+        "type": "ui_button",
+        "z": "60173d85.fbf8a4",
+        "name": "None",
+        "group": "51479d6.8bfc664",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Off",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 1370,
+        "y": 700,
+        "wires": [
+            [
+                "86519744.ef7bb8",
+                "63cdce8d.50d03",
+                "92aa129e.609a7"
+            ]
+        ]
+    },
+    {
+        "id": "86519744.ef7bb8",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "weather off",
+        "func": "var x = msg.payload; // get value\nflow.set(\"w\", 0);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1570,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63cdce8d.50d03",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Mode Off",
+        "func": "\nvar x = \"a;0\";\nmsg = {payload: x}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1560,
+        "y": 740,
+        "wires": [
+            [
+                "901f3f2e.8ba88"
+            ]
+        ]
+    },
+    {
+        "id": "86978b4d.9a8bb8",
+        "type": "comment",
+        "z": "60173d85.fbf8a4",
+        "name": "The time gets automatically updated every 2 hours",
+        "info": "",
+        "x": 670,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "34dc8dab.07a772",
+        "type": "mqtt in",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "topic": "clock",
+        "qos": "0",
+        "broker": "412513fc.ce4c7c",
+        "x": 240,
+        "y": 620,
+        "wires": [
+            [
+                "b8c087c2.c70048"
+            ]
+        ]
+    },
+    {
+        "id": "b8c087c2.c70048",
+        "type": "debug",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 400,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "5586f958.949b98",
+        "type": "ui_template",
+        "z": "60173d85.fbf8a4",
+        "group": "764a1245.cd985c",
+        "name": "Table",
+        "order": 3,
+        "width": "6",
+        "height": "2",
+        "format": "<style>  table {      color: #333;      font-family: Helvetica, Arial, sans-serif;    width: 100%;      height: 60%;  border-collapse: collapse;      border-spacing: 0;  }  td, th {      border: 1px solid transparent;        height: 30px;      transition: all 0.3s;  }  th {      background: #DFDFDF;      font-weight: bold;  }  td {      background: #FAFAFA;      text-align: left;  }    tr:nth-child(even) td {      background: #F1F1F1;  }      tr:nth-child(odd) td {      background: #FEFEFE;  }  tr td:hover {      background: #666;      color: #FFF;  }  </style>\n\n<table width=\"50%\" align=\"center\">\n<tr><td align=\"left\">Digit 1:<td><b>{{msg.payload[0]}}</b></td></td><td align=\"left\">Digit 2:<td><b>{{msg.payload[1]}}</b></td></td></tr>\n<tr><td align=\"left\">Digit 3:<td><b>{{msg.payload[2]}}</b></td></td><td align=\"left\">Digit 4:<td><b>{{msg.payload[3]}}</b></td></td></tr>\n<tr><td align=\"left\">Dot 1:<td><b>{{msg.payload[4]}}</b></td></td><td align=\"left\">Dot 2:<td><b>{{msg.payload[5]}}</b></td></td></tr>\n\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 1250,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da17aa7f.f4b488",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Assemble table",
+        "func": "var s1 = flow.get(\"s1\");\nvar s2 = flow.get(\"s2\");\nvar s3 = flow.get(\"s3\");\nvar s4 = flow.get(\"s4\");\nvar s5 = flow.get(\"s5\");\nvar s6 = flow.get(\"s6\");\n\nvar pay = [s1, s2, s3, s4, s5, s6];\n\nmsg.payload = pay;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1100,
+        "y": 580,
+        "wires": [
+            [
+                "5586f958.949b98"
+            ]
+        ]
+    },
+    {
+        "id": "86d7fa07.9865f8",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "GetTime",
+        "func": "var now     = new Date(); \n\nvar hour    = now.getHours();\nvar minute  = now.getMinutes();\nvar second = now.getSeconds();\n\n\n\nvar offset = global.get(\"timeoffset\");\nif(offset != null)\n{\n    hour += offset; \n    hour += 1;\n}\n\nif(hour >23)\n{\n    hour -= 24;\n}\nelse if(hour <0)\n{\n    hour += 24;\n}\n\n\nvar h1 = 0;\nvar h2 = 0;\nvar m1 = 0;\nvar m2 = 0;\nvar s1 = 0;\nvar s2 = 0;\n\n\ns2 = second %10; \ns1 = parseInt((second/10)%10); \nm2 = minute %10; \nm1 = parseInt((minute/10)%10); \nh2 = hour %10; \nh1 = parseInt((hour/10)%10); \n\n\nvar result = \"s;\";\nresult = result + h1;\nresult = result + \";\";\nresult = result + h2;\nresult = result + \";\";\nresult = result + m1;\nresult = result + \";\";\nresult = result + m2;\nresult = result + \";\";\nresult = result + s1;\nresult = result + \";\";\nresult = result + s2;\n\nmsg = {payload: result}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 900,
+        "y": 160,
+        "wires": [
+            [
+                "4962d4fa.d4b01c",
+                "aededa12.014048"
+            ]
+        ]
+    },
+    {
+        "id": "4962d4fa.d4b01c",
+        "type": "debug",
+        "z": "60173d85.fbf8a4",
+        "name": "de",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 1070,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "4afbdb15.6a9ce4",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Timer",
+        "func": "var timerval = msg.payload;\n\nflow.set(\"timervalue\", timerval);\n\nmsg = {payload: timerval};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 718,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "250a01d3.2989ae",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Format",
+        "func": "var timesecs = flow.get(\"timervalue\");\nvar result = \"\";\nvar secs = 0;\nvar mins = 0;\nvar hours = 0;\n\nsecs = timesecs;\nsecs = secs/1000;\n\nsecs = parseInt(secs);\n\n\n\nfor(mins = 0; secs >=60; secs = secs - 60)\n{\n    mins++;\n}\n\n\nfor(hours = 0; mins >=60; mins = mins - 60)\n{\n    hours++;\n}\n\nhours = parseInt(hours);\nmins = parseInt(mins);\nsecs = parseInt(secs);\n\nif(hours < 10)hours = \"0\" + hours;\nif(mins < 10)mins = \"0\" + mins;\nif(secs < 10)secs = \"0\" + secs;\n\n\nresult = \"t;\" + hours + \";\" + mins + \";\" + secs;\n\n\nmsg = {payload: result};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 718,
+        "y": 1240,
+        "wires": [
+            [
+                "8f9b878f.ad24c8"
+            ]
+        ]
+    },
+    {
+        "id": "11946b2f.2f14b5",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Dots",
+        "func": "var x = \"d;1;1\";\nmsg = {payload: x}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 718,
+        "y": 1280,
+        "wires": [
+            [
+                "8f9b878f.ad24c8"
+            ]
+        ]
+    },
+    {
+        "id": "5f0d24e4.9d49bc",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "weather off",
+        "func": "var x = msg.payload; // get value\nflow.set(\"w\", 0);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 728,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aededa12.014048",
+        "type": "link out",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "links": [
+            "11f688c3.2d4d57"
+        ],
+        "x": 1055,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "33fa1fb8.f4415",
+        "type": "link out",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "links": [
+            "76456690.4972b8"
+        ],
+        "x": 1055,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "8c17da05.7d6aa8",
+        "type": "link out",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "links": [
+            "76456690.4972b8"
+        ],
+        "x": 895,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "8f9b878f.ad24c8",
+        "type": "link out",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "links": [
+            "11f688c3.2d4d57",
+            "76456690.4972b8"
+        ],
+        "x": 895,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "901f3f2e.8ba88",
+        "type": "link out",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "links": [
+            "11f688c3.2d4d57",
+            "76456690.4972b8"
+        ],
+        "x": 1795,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "61016fc0.97e8d",
+        "type": "ui_button",
+        "z": "60173d85.fbf8a4",
+        "name": "Default",
+        "group": "51479d6.8bfc664",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Default Colors",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 1380,
+        "y": 520,
+        "wires": [
+            [
+                "74396f32.0051",
+                "b786fd25.9b96f",
+                "df7e87ef.beb6d8"
+            ]
+        ]
+    },
+    {
+        "id": "74396f32.0051",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Brightness",
+        "func": "\nvar x = \"b;60\";\nmsg = {payload: x}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1580,
+        "y": 520,
+        "wires": [
+            [
+                "71ae4c58.059044"
+            ]
+        ]
+    },
+    {
+        "id": "b786fd25.9b96f",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Dots",
+        "func": "var x = \"d;1;1\";\nmsg = {payload: x}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1560,
+        "y": 560,
+        "wires": [
+            [
+                "71ae4c58.059044"
+            ]
+        ]
+    },
+    {
+        "id": "71ae4c58.059044",
+        "type": "link out",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "links": [
+            "11f688c3.2d4d57"
+        ],
+        "x": 1855,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "dfb42238.13c55",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Brightness",
+        "func": "var x = msg.payload; // get value\n//var x2 = Math.log(x);\nvar x2 = Math.pow(1.0569766707490582, x);\n\nvar res = parseInt(x2);\nif(x == 100)res = 255;\nx = \"b;\" + res;\nmsg = {payload: x}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 400,
+        "wires": [
+            [
+                "aededa12.014048"
+            ]
+        ]
+    },
+    {
+        "id": "128aad3.f601453",
+        "type": "link out",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "links": [
+            "76456690.4972b8"
+        ],
+        "x": 895,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "c48076bb.bc6c88",
+        "type": "ui_colour_picker",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "",
+        "group": "708a027e.1cb5cc",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": true,
+        "showValue": true,
+        "showHue": true,
+        "showAlpha": false,
+        "showLightness": true,
+        "dynOutput": "false",
+        "order": 0,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "topic": "",
+        "x": 530,
+        "y": 1580,
+        "wires": [
+            [
+                "2eee9b0e.8d70e4"
+            ]
+        ]
+    },
+    {
+        "id": "2eee9b0e.8d70e4",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Single Color",
+        "func": "function hexToRgb(hex) {\n    var bigint = parseInt(hex, 16);\n    var r = (bigint >> 16) & 255;\n    var g = (bigint >> 8) & 255;\n    var b = bigint & 255;\n\n    return r + \";\" + g + \";\" + b;\n}\n\n\n\nvar x = msg.payload; // get value\nvar x2 = x;\nvar rgb =  hexToRgb(x2);\nflow.set(\"default\",msg.payload);\nx = \"x;\" + rgb;\nflow.set(\"defaultf\", x);\nmsg = {payload: x}; // set msg\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 740,
+        "y": 1580,
+        "wires": [
+            [
+                "128aad3.f601453",
+                "624cee4e.32c4"
+            ]
+        ]
+    },
+    {
+        "id": "624cee4e.32c4",
+        "type": "debug",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1050,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "c938af5d.9539",
+        "type": "debug",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1160,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "92aa129e.609a7",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Mode fade Off",
+        "func": "\nvar x = \"#\";\nmsg = {payload: x}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1580,
+        "y": 780,
+        "wires": [
+            [
+                "901f3f2e.8ba88"
+            ]
+        ]
+    },
+    {
+        "id": "36f67adf.4a9dd6",
+        "type": "ui_slider",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "label": "",
+        "group": "38bfd3d.73dea2c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "",
+        "min": "1",
+        "max": "99",
+        "step": 1,
+        "x": 1390,
+        "y": 160,
+        "wires": [
+            [
+                "33b9f4d7.904a0c",
+                "364bc42c.2f50ec"
+            ]
+        ]
+    },
+    {
+        "id": "33b9f4d7.904a0c",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set global display duration",
+        "func": "var x = 0;\nflow.set(\"wdurnorm\", msg.payload);\nif(msg.payload <9)x = \"0;\" + msg.payload;\nelse\n{\n    var s1 = parseInt(msg.payload/10);\n    var s2 = msg.payload - 10*s1;\n    var x = s1 + \";\" + s2;\n}\nglobal.set(\"wdur\", x);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1760,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "adf94799.63acb8",
+        "type": "ui_text",
+        "z": "60173d85.fbf8a4",
+        "group": "38bfd3d.73dea2c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Duration: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1860,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "d214914e.1bb6c",
+        "type": "ui_ui_control",
+        "z": "60173d85.fbf8a4",
+        "name": "",
+        "x": 1380,
+        "y": 240,
+        "wires": [
+            [
+                "61fc397d.c633b8",
+                "2dbf0a4d.a659d6"
+            ]
+        ]
+    },
+    {
+        "id": "61fc397d.c633b8",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "get dur",
+        "func": "var x = flow.get(\"wdurnorm\");\nif(x == null)x = \"10 seconds\";\nelse x = x + \" seconds\";\nmsg.payload = x;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1540,
+        "y": 240,
+        "wires": [
+            [
+                "adf94799.63acb8"
+            ]
+        ]
+    },
+    {
+        "id": "364bc42c.2f50ec",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "format",
+        "func": "var x = msg.payload + \" seconds\";\nmsg.payload = x;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1690,
+        "y": 200,
+        "wires": [
+            [
+                "adf94799.63acb8"
+            ]
+        ]
+    },
+    {
+        "id": "c06c276.8e9c9d8",
+        "type": "ui_text",
+        "z": "60173d85.fbf8a4",
+        "group": "38bfd3d.73dea2c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Weather display duration (seconds):",
+        "format": "",
+        "layout": "row-left",
+        "x": 1490,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "df7e87ef.beb6d8",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "Set Dot Colors",
+        "func": "var x = global.get(\"defaultc\");\nif(x == null)return null;\nmsg = {payload: x}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1580,
+        "y": 600,
+        "wires": [
+            [
+                "71ae4c58.059044"
+            ]
+        ]
+    },
+    {
+        "id": "2dbf0a4d.a659d6",
+        "type": "function",
+        "z": "60173d85.fbf8a4",
+        "name": "get dur",
+        "func": "var x = flow.get(\"w\");\nif(x == null)msg.payload = \"1\";\nelse msg.payload = x;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1240,
+        "y": 100,
+        "wires": [
+            [
+                "d1eb22b9.00482"
+            ]
+        ]
+    },
+    {
+        "id": "dad19067.322fc",
+        "type": "link in",
+        "z": "7ea5ec71.511684",
+        "name": "Connection",
+        "links": [
+            "8cec152.3f14de8",
+            "c6a8ebe9.e2f208",
+            "aa7622b5.84e8e",
+            "d7489b4a.43f838",
+            "ec406f29.848d2",
+            "56adfcfc.987994",
+            "fe9a4936.b7bd88",
+            "31a92642.c65eaa",
+            "43d4f3c3.6036cc",
+            "d3e376b.2e70888",
+            "1091c59d.bdd14a",
+            "8c0b79ba.762be8",
+            "2ce47f6d.5ff42"
+        ],
+        "x": 595,
+        "y": 360,
+        "wires": [
+            [
+                "d999f985.810c18"
+            ]
+        ]
+    },
+    {
+        "id": "d999f985.810c18",
+        "type": "mqtt out",
+        "z": "7ea5ec71.511684",
+        "name": "",
+        "topic": "Clock",
+        "qos": "0",
+        "retain": "false",
+        "broker": "412513fc.ce4c7c",
+        "x": 690,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5b40992c.cc05c8",
+        "type": "comment",
+        "z": "7ea5ec71.511684",
+        "name": "Edit the purple nodes below to set the topic",
+        "info": "",
+        "x": 220,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "a81478ad.4bf2e8",
+        "type": "link in",
+        "z": "7ea5ec71.511684",
+        "name": "Always passthrough",
+        "links": [
+            "5595f812.371578",
+            "12ab035d.91a39d",
+            "5cec0ffe.38eef",
+            "8d8ac4e0.6170a8",
+            "1db7704c.015ff"
+        ],
+        "x": 515,
+        "y": 360,
+        "wires": [
+            [
+                "d999f985.810c18"
+            ]
+        ]
+    },
+    {
+        "id": "8607af6f.7a40c",
+        "type": "function",
+        "z": "7ea5ec71.511684",
+        "name": "GetTime",
+        "func": "var now     = new Date(); \n\nvar hour    = now.getHours();\nvar minute  = now.getMinutes();\nvar second = now.getSeconds();\n\n\n\nvar offset = global.get(\"timeoffset\");\nif(offset != null)\n{\n    hour += offset; \n    hour += 1;\n}\n\nif(hour >23)\n{\n    hour -= 24;\n}\nelse if(hour <0)\n{\n    hour += 24;\n}\n\n\nvar h1 = 0;\nvar h2 = 0;\nvar m1 = 0;\nvar m2 = 0;\nvar s1 = 0;\nvar s2 = 0;\n\n\ns2 = second %10; \ns1 = parseInt((second/10)%10); \nm2 = minute %10; \nm1 = parseInt((minute/10)%10); \nh2 = hour %10; \nh1 = parseInt((hour/10)%10); \n\n\nvar result = \"s;\";\nresult = result + h1;\nresult = result + \";\";\nresult = result + h2;\nresult = result + \";\";\nresult = result + m1;\nresult = result + \";\";\nresult = result + m2;\nresult = result + \";\";\nresult = result + s1;\nresult = result + \";\";\nresult = result + s2;\n\nmsg = {payload: result}; // set msg\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 480,
+        "y": 300,
+        "wires": [
+            [
+                "d999f985.810c18"
+            ]
+        ]
+    },
+    {
+        "id": "f95fabc6.150208",
+        "type": "mqtt in",
+        "z": "7ea5ec71.511684",
+        "name": "Clock Time Requests",
+        "topic": "request_Clock",
+        "qos": "0",
+        "broker": "412513fc.ce4c7c",
+        "x": 160,
+        "y": 300,
+        "wires": [
+            [
+                "8607af6f.7a40c"
+            ]
+        ]
+    }
+]
