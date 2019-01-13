@@ -1,3 +1,6 @@
+# THIS REPO IS NO LONGER UPDATED, VISIT THE THINGIVERSE PROJECT FOR UPDATED FILES
+
+
 This is a fully 3D printed clock that was designed in Fusion 360. The project is based on [Ivan Miranda's Big Digital Clock](https://ivanmiranda.com/diy-big-digital-clock) and was completely re-designed.
 
 ## If you have any questions or issues feel free contact me 
